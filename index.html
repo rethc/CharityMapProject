@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+
+        .watermark-container {
+            position: absolute;
+            bottom: 10px;
+            left: 15px;
+            z-index: 1000;
+            opacity: 0.7;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+
+            .watermark-container img {
+                width: 180px; 
+                height: auto;
+                margin-bottom: 8px;
+            }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <!-- Watermark container for both logos -->
+    <div class="watermark-container">
+        <img src="charities-logo.svg" alt="Charities Services Logo">
+        <img src="dia-logo.png" alt="DIA Logo">
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+    <script>
+        var map = L.map('map', { attributionControl: false }).setView([-40.9006, 174.8860], 6); // New Zealand centered
+
+        // Add Carto Voyager tiles 
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://carto.com/">Carto</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        var markers = L.markerClusterGroup();
+
+        // Fetch charity data from your pre geocoded CSV file
+        fetch('combined_charities_data.csv')
+            .then(response => response.text())
+            .then(csv => {
+                // Parse CSV data
+                let rows = csv.split('\n').slice(1);  // Skip the header row
+                rows.forEach(row => {
+                    let columns = row.split(',');
+
+                    let charityRegNumber = columns[0] || 'Unknown';
+                    let charityName = columns[1] || 'Unknown';
+                    let streetAddress = `${columns[3]} ${columns[4]}, ${columns[6]}, ${columns[2]}, ${columns[5]}`;
+                    let lat = parseFloat(columns[8]);
+                    let lon = parseFloat(columns[9]);
+
+                    // Check if lat/lon are valid
+                    if (!isNaN(lat) && !isNaN(lon)) {
+                        // Create the popup content with charity name, reg number, and address
+                        var popupContent = `
+                                    <b>${charityName}</b><br>
+                                    <b>${charityRegNumber}</b><br>
+                                    ${streetAddress}
+                                `;
+
+                        // Add marker to the map
+                        var marker = L.marker([lat, lon]).bindPopup(popupContent);
+                        markers.addLayer(marker);
+                    }
+                });
+            })
+            .catch(function(error) {
+                console.log('Error loading CSV data:', error);
+            });
+
+        // Add the markers to the map
+        map.addLayer(markers);
+    </script>
+</body>
+</html>
