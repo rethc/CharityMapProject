@@ -1,0 +1,6 @@
+self.onmessage=function(e){var csvFile=e.data.csvFile;var markerType=e.data.markerType||'charity';fetch(csvFile).then((response)=>response.text()).then((csv)=>{var markerData=[];let rows=csv.split("\n").slice(1);rows.forEach((row)=>{let columns=row.split(",");let charityRegNumber=columns[0]||"Unknown";let charityName=columns[1]||"Unknown";let streetAddressLine1=columns[2]?columns[2].trim():'';let streetAddressLine2=columns[3]?columns[3].trim():'';let streetSuburb=columns[4]?columns[4].trim():'';let streetCity=columns[5]?columns[5].trim():'';let streetPostcode=columns[6]?columns[6].trim():'';let streetCountry=columns[7]?columns[7].trim():'';let streetAddress=`${streetAddressLine1}${streetAddressLine2 ? ', ' + streetAddressLine2 : ''}${streetSuburb ? ', ' + streetSuburb : ''}, ${streetCity}, ${streetPostcode} ${streetCountry}`;let lat=parseFloat(columns[8]);let lon=parseFloat(columns[9]);if(!isNaN(lat)&&!isNaN(lon)){var popupContent=`
+    <b>${charityName}</b><br>
+    <b>${charityRegNumber}</b><br>
+    ${streetAddress}<br>
+    <a href="https://www.register.charities.govt.nz/Charity/${charityRegNumber}" target="_blank">Click for more details</a>
+`;markerData.push({lat,lon,charityRegNumber,charityName,popupContent,markerType})}});self.postMessage(markerData)}).catch(function(error){console.log("Error loading CSV data:",error);self.postMessage([])})}
