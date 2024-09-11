@@ -53,7 +53,7 @@
         ></script>
         <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js" integrity="sha512-qh/P3G5pJ41NomJU64K7iqtrGpjd1odJapzykgv3Ch5pHc0ecjZahh4huIsmvTPXDRwvI86mqh2AbbLwZRS8Cw==" crossorigin=""></script>
         <script>
-            var map = L.map("map", { attributionControl: !0, worldCopyJump: !0, minZoom: 4, crs: L.CRS.EPSG2193 }).setView([-40.9006, 174.886], 6);
+            var map = L.map("map", { attributionControl: !0, worldCopyJump: !0, minZoom: 4, crs: L.CRS.EPSG2193  }).setView([-40.9006, 174.886], 6);
             var attribution = 'Registered Charities in New Zealand | &copy; <a href="https://carto.com/">Carto</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
             var polygons = [];
             var spinner = document.getElementById("loading-spinner");
@@ -62,7 +62,7 @@
             map.attributionControl.setPrefix("");
             var charityData = [];
             var groupData = [];
-            var charityMarkersCluster = L.markerClusterGroup({ animateAddingMarkers: !0, showCoverageOnHover: !0, spiderfyOnMaxZoom: !0 });
+            var charityMarkersCluster = L.markerClusterGroup({ animateAddingMarkers: !0, showCoverageOnHover: !1, spiderfyOnMaxZoom: !0 });
             var groupMarkersCluster = L.markerClusterGroup({ animateAddingMarkers: !0, showCoverageOnHover: !1, spiderfyOnMaxZoom: !0 });
             var combinedMarkersCluster = L.markerClusterGroup({ animateAddingMarkers: !0, showCoverageOnHover: !1, spiderfyOnMaxZoom: !0 });
             if (window.Worker) {
