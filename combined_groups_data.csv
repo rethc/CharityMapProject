@@ -23,7 +23,7 @@ CC11026-0,NAGHL Group,Louvain House,Louvain Street, ,Whakatane,3120,New Zealand,
 CC26412,New Zealand Marist Brothers,Unit 1,381 Great South Road,Ellerslie,Auckland,1051,New Zealand,-36.8985788,174.8030724
 CC31028,New Zealand National Eye Bank Group,C/- DEPARTMENT OF OPTHALMOLOGY,85 Park Road,Grafton,Auckland,1023,New Zealand,-36.8620503,174.769671
 CC40716,Ngati Mutunga o Wharekauri Iwi Trust Group,Waitangi - Big Bush Road, ,Te One,Chatham Islands,8942,New Zealand,-43.9317571,-176.5272456
-CC35565,Ngāi Tahu Charitable Group,Te Whare o Te Waipounamu,15 Show Place,Addington,Christchurch,8024,New Zealand,-43.5426898,172.6022371
+CC35565,Ng?i Tahu Charitable Group,Te Whare o Te Waipounamu,15 Show Place,Addington,Christchurch,8024,New Zealand,-43.5426898,172.6022371
 CC45577,Nga Kakano Group,50 Jellicoe Street,, ,Te Puke,3119,New Zealand,-37.7849054,176.3287729
 CC48057,NZ Heart Foundation,9 Kalmia Street, ,Ellerslie,Auckland,1051,New Zealand,-36.8987466,174.8068291
 CC29263,Ostomy Societies Group,15 Totara Place, ,Highfield,Timaru,7910,New Zealand,-44.3942173,171.2146396
@@ -249,7 +249,7 @@ CC61865,Hospice Southland Charitable Trust (Group),75 Kew Road, ,Kew,Invercargil
 CC61873,Christians Against Poverty New Zealand Group,55 Hugo Johnston Drive, ,Penrose,Auckland,1061,New Zealand,-36.9219119,174.8209851
 CC61955,The SILC Charitable Trust Group,97 Eleventh Avenue,, ,Tauranga,3110,New Zealand,-37.6986061,176.1604055
 CC61988,Anglican Diocese of Waiapu Group,2 Bower Street, ,Napier South,Napier,4110,New Zealand,-39.4944418,176.9165536
-CC62017,Whānau Mercy Ministries Trust Group,PO Box 6015,Wellesley Street,Auckland Central,Auckland ,1141,New Zealand,-36.8522857,174.7666997
+CC62017,Wh?nau Mercy Ministries Trust Group,PO Box 6015,Wellesley Street,Auckland Central,Auckland ,1141,New Zealand,-36.8522857,174.7666997
 CC62056,St Heliers Presbyterian Church Group,100 St Heliers Bay Road, ,St Heliers,Auckland,1071,New Zealand,-36.8548269,174.8487092
 CC62165,Anglican Missions Group,ANGLICAN HOUSE,32 Mulgrave Street,Pipitea,Wellington,6011,New Zealand,-41.2766562,174.7800611
 CC62207,TToH & Waingakau Group,821 Orchard Road, ,Camberley,Hastings,4120,New Zealand,-39.6215192,176.8159724
@@ -258,3 +258,19 @@ CC62542,Southside Vineyard Church Group,29 Lenore Road, ,Favona,Auckland,2024,Ne
 CC62555,OUSA Group,640 Cumberland Street North, ,North Dunedin,Dunedin,9016,New Zealand,-45.8664668,170.5121338
 CC62584,Auckland Museum Group,Museum Circuit,Domain,Parnell,Auckland,,New Zealand,-36.8601687,174.7772085
 CC62628,Festival One Group,42A Kiwi Esplanade,RD 3,Mangere Bridge,Auckland,2022,New Zealand,-36.940407,174.7770021
+CC62668,Laura Fergusson Trust Incorporated Group,Auckland,,52 Symonds Street,Level 3,1010,Auckland,-36.8554498,174.7673372
+CC62753,The Kerikeri Civic Trust Group,Kerikeri,,43 Cobham Road,Kerikeri 0230,230, ,-35.2309802,173.9528314
+CC62874,Waikato Regional Property Trust Board Group,Hamilton,,127 Alexandra Street, ,3204,Hamilton Central,-37.7886077,175.2821189
+CC62879,Te Runanga o Kirikiriroa Group,Hamilton,,59 Higgins Road, ,3204,Frankton,-37.7992434,175.2573995
+CC62962,University of Waikato Group,Hamilton,,Hillcrest Road, ,3216,Hillcrest,-37.7914886,175.317703
+CC62966,Search and Rescue Services Group,Taupō,,87 Tauhara Road,Taupo 3330,3330,Tauhara,-38.6802863,176.0895004
+CC62972,Rangitāne o Tamaki nui-ā-Rua Group,Dannevirke,,10 Gordon Street,Dannevirke 4930,4930, ,-40.2083397,176.098948
+CC63051,Taita Home Trust Board Group,Lower Hutt,,6 Cooper Street, ,5011,Taita,-41.1756848,174.9615651
+CC63120,Artworks Theatre Group,Waiheke Island,,2 Korora Road, ,1081,Oneroa,-36.780909,175.0069171
+CC63133,Home Group,Christchurch,,1 Kairua Road, ,8025,Hornby,-43.557848,172.5371852
+CC63190,Whanganui Regional Health Network Group ,Wanganui,,GATE 3,100 Heads Road,4501,Gonville,-39.9438191,175.0384379
+CC63198,CES Foundation Group,Christchurch,,89 Nazareth Avenue, ,8024,Middleton,-43.5441822,172.5792842
+CC63234,FIANZ Group,Auckland,,463 Porchester Road, ,2105,Randwick Park,-37.0214585,174.9230794
+CC63309,Enrich Group,Te Awamutu,,48 Teasdale Street,Te Awamutu 3800,3800,Hamilton Central,-38.0099427,175.3228351
+CC63357,Waipareira Investment Group,Waitakere City,,Corner Edmonton And Great North Roads, ,,Henderson,-36.8893902,174.6974253
+CC63491,Orana Wildlife Trust Group,Christchurch,,793 Mcleans Island Road, ,7676,Mcleans Island,-43.4677723,172.4622967
