@@ -113,6 +113,7 @@
       let workersDone = 0;
       function hideSpinner() {
         workersDone++;
+        console.log("Worker done, count: " + workersDone);
         if (workersDone === 2) {
           spinner.style.display = "none";
         }
