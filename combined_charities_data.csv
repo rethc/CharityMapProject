@@ -29147,9 +29147,960 @@ CC62627,Rescue Assets Limited,43 Western Hills Drive, ,Kensington,Whangārei,011
 CC62629,Community Church of Otangarei,Whangarei,,104 Dip Road,RD 6,0176,Te Kamo,-35.681001,174.2813248
 CC62631,Korero Mai Limited,Kaikoura,,63 Ludstone Road, ,7300,Kaikoura,-42.4017225,173.6731035
 CC62630,Don Francis Trust,Hawera,,87 Regent Street,Hawera,4610,,-39.5892437,174.2797216
-CC62633,Noor Women for Afghanistan Charitable Trust,New Plymouth,,136-138 Powderham Street,,, ,,-39.0605413,174.0683124
-CC62635,Assembly Of God Church Of Samoa - Stokes Valley,Lower Hutt,,58 Delaney Drive,,5019,Stokes Valley,,-41.1814987,174.9728886
-CC62634,Belmont Hall Sanctuary NZ Charitable Trust,Dargaville,,86 Beach Road,,0310, ,,-35.9440719,173.8543804
-CC62632,Taku Waahi Tupu Charitable Trust,Huntly,,177 Harris Street,,3700, ,,-37.5495228,175.151306
-CC62636,Woodlands Grace Presbyterian Church,Invercargill,,145 Bainfield Road, ,9810,Waikiwi,,-46.3760489,168.3543531
-CC62637,New Zealand Journal of Law and Politics | Te Hautaka Ture me Tōrangapū o Aotearoa Charitable Trust Board,Auckland,,Unit 3,16 Albany Highway,0632,Greenhithe,,-36.764515,174.7144219
+CC62633,Noor Women for Afghanistan Charitable Trust,New Plymouth,,136-138 Powderham Street,,, ,-39.0605413,174.0683124
+CC62635,Assembly Of God Church Of Samoa - Stokes Valley,Lower Hutt,,58 Delaney Drive,,5019,Stokes Valley,-41.1814987,174.9728886
+CC62634,Belmont Hall Sanctuary NZ Charitable Trust,Dargaville,,86 Beach Road,,0310, ,-35.9440719,173.8543804
+CC62632,Taku Waahi Tupu Charitable Trust,Huntly,,177 Harris Street,,3700, ,-37.5495228,175.151306
+CC62636,Woodlands Grace Presbyterian Church,Invercargill,,145 Bainfield Road, ,9810,Waikiwi,-46.3760489,168.3543531
+CC62637,New Zealand Journal of Law and Politics | Te Hautaka Ture me Tōrangapū o Aotearoa Charitable Trust Board,Auckland,,Unit 3,16 Albany Highway,0632,Greenhithe,-36.764515,174.7144219
+CC62638,Te Whai Ao Charitable Trust,Te Kauwhata,,187 Rimu Street,,3710, ,-37.4147722,175.1480244
+CC62639,Pahu Bark,Ferry Landing,,1139 Purangi Road,,3591, ,-36.8308198,175.712968
+CC62641,Te R?nanga o Kaik?ura Incorporated,Kaikōura,,7 Takahanga Terrace,,7300, ,-42.4060253,173.6806583
+CC62640,Charlie Anne Charitable Trust,Auckland,,49 Church Road, ,2022,Mangere Bridge,-36.9425365,174.7813921
+CC62642,Neighbourhood Support Kawerau District,Kawerau,,3 Bledisloe Street,,3127, ,-38.0858631,176.7027013
+CC62644,Head Injury Southland Charitable Trust,Invercargill,,39 Gala Street, ,9810,Avenal,-46.4065544,168.348747
+CC62643,"Congregational Christian Church of Samoa - Isaraelu Fou (Christchurch, New Zealand) Trust",Christchurch,,30 Sandown Crescent, ,8061,Aranui,-43.5111971,172.7073848
+CC62646,Mission to Seafarers (New Zealand) Charitable Trust,Wellington,,2 Fryatt Quay, ,6011,Pipitea,-41.2776088,174.7858215
+CC62647,Dunedin Christmas Charitable Trust,Dunedin,,Floor 1,43 Princes Street,9016,Dunedin Central,-45.8750582,170.5033121
+CC62654,Taupo Marist Incorporated,Taupo,,93 Jarden Mile, ,3330,Nukuhau,-38.6800787,176.0491307
+CC62645,Active Limited,Auckland,,"Level 14, ANZ Centre",23-29 Albert Street,1010,Auckland City,-36.8453598,174.7640085
+CC62649,R?p?tanga Collective,Lower Hutt,,2D Waitohu Road, ,5013,York Bay,-41.2627339,174.9147216
+CC62648,Light of All Nations Rakaia,Rakaia,,55 Elizabeth Avenue,,7710, ,-43.75495,172.0216832
+CC62651,Te Awa Churches,Auckland,,31 Ashby Avenue, ,1071,Saint Heliers,-36.8646873,174.857628
+CC62653,CCCS Parish Trust,Porirua,,6 Louisa Grove, ,5024,Waitangirua,-41.1285954,174.8782179
+CC62652,The Southland Ecumenical Rural Chaplaincy Charitable Trust,Invercargill,,29 Rakiura Parade,RD 9,9879,Otatara,-46.4369828,168.2769206
+CC62650,Shamrock Boxing Maraenui Napier,Napier,,42 Hillary Crescent, ,4110,Maraenui,-39.5137547,176.9013386
+CC62658,Methven and Foothills Birdsong Trust,Methven,,3 Cameron Street,,7730, ,-43.6356522,171.641974
+CC62657,Te Kura o ng? Koha,Christchurch,,26 Carbine Place, ,8042,Sockburn,-43.5345075,172.5517896
+CC62655,Worship Centre Christian Church Napier NZ Trust,Hastings,,93 Dundee Drive, ,4120,Flaxmere,-39.6348549,176.7933334
+CC62656,New Beginnings Church,Auckland,,52A Rogan Street, ,1041,Mount Roskill,-36.9231722,174.7463207
+CC62660,Rangiora Brass Band Incorporated,Rangiora,,189 Northbrook Road,Rangiora 7400,7400, ,-43.3104294,172.6032852
+CC62659,NZ Action Film Foundation,Auckland,,38 Noeleen Street,,629,Glenfield,-36.7781635,174.7124465
+CC62661,Pacific Disability Support Trust,Christchurch,,10 Redfern Street,,8051,Northwood,-43.4587573,172.614752
+CC62665,Puketoi to the Pacific Catchment Collective Incorporated,Dannevirke,,6 Gordon Street,,4930, ,-40.207979,176.0985011
+CC62664,NZ Paed Endo Society Incorporated,Auckland,,88 Te Kawa Road, ,1061,Greenlane,-36.899994,174.7959532
+CC62662,New Zealand Orthopaedic Trauma Society Incorporated,Wellington,,39 The Terrace, ,6011,Wellington Central,-41.2800296,174.7755264
+CC62663,Mid Canterbury Rural Driver Licencing Trust,Ashburton,,255 Moore Street,,7700,,-43.9078133,171.7483251
+CC62667,Ng?ti Kahungunu ki T?maki-nui-a-Rua,Dannevirke,,171 High Street,Dannevirke 4930,4930, ,-40.2077318,176.1021625
+CC62666,Westella Limited,Hamilton,,293 Grey Street, ,3216,Hamilton East,-37.7946771,175.2931808
+CC62669,Butterfly Compassion Community,Palmerston North,,4 Newmarket Lane, ,4412,Awapuni,-40.3798219,175.5778868
+CC62670,Upper Clutha Sports Services Hub Incorporated,Wanaka,,20 Winders Street, ,9305,Wānaka,-44.6844223,169.1282029
+CC62674,The PNBST Charitable Trust,Wellington,,"Ground Floor, 1 Thorndon Quay",C/- The PNBST Charitable Trust,6011,Pipitea,-41.2776769,174.7801427
+CC62677,NZMACI Charitable Foundation Limited,Rotorua,,GM Finance,1 Hemo Road,3010,Whakarewarewa,-38.162762,176.2512133
+CC62672,FREEDOM WORSHIP CENTRE CHRISTIAN CHURCH NZ GREY LYNN,Auckland,,114 Canal Road, ,1026,Avondale,-36.8962756,174.6830823
+CC62671,Pride Wairau Manat?p?,Blenheim,,23 Hiley Street, ,7201,Springlands,-41.5099028,173.9434635
+CC62673, Foundation of Life Agape International Ministry NZ Christchurch ,Christchurch,,9A Bonita Place, ,8051,Bishopdale,-43.4880252,172.5786464
+CC62675,Forward Whakatipu Charitable Trust,Queenstown,,62A Marina Drive, ,9300,Frankton,-45.0154697,168.7162735
+CC62676,Furrytails Trust,Levin,,527 Hokio Beach Road,RD 1,5571,Hokio Beach,-40.6086668,175.2282378
+CC62678,Ashburton Community Garden,Ashburton,,226 Cameron Street,,7700, ,-43.9044973,171.751485
+CC62680,Rural Riders Charitable Trust,Feilding,,32 Turners Road,,4775, ,-40.2340584,175.5698026
+CC62679,The Urban Room Foundation,Auckland,,42 Scarborough Terrace, ,1052,Parnell,-36.8555834,174.7816471
+CC62681,MANU-NUI-ARIKI CHARITABLE TRUST,Rotorua,,3A Diamond Street, ,3015,Pukehangi,-38.1366152,176.205307
+CC62685,NZ Secondary School Equestrian Cup Events Trust,Dairy Flat,,52 Follies Way,,792, ,-36.6770652,174.6709477
+CC62686,New Zealand Youth Charitable Trust,Auckland,,58 Jaemont Avenue, ,610,Te Atatu South,-36.8629958,174.6513691
+CC62682,Te Kura Motuhake Charitable Trust,Opotiki,,60 Buchanan Street,,3122,Ōpōtiki,-38.0104919,177.2924023
+CC62684,The Grassroots Dairy Graduate Trust,Ashburton,,151 Burnett Street,Ashburton 7700,7700,,-43.9036006,171.7469081
+CC62683,?whio Toi Manat?p?,Nelson,,302 The Ridgeway, ,7011,Stoke,-41.3208023,173.2331134
+CC62689,ROTARY CLUB OF BOTANY DOWNS CHARITABLE TRUST ,Auckland,,27 Skye Road, ,2016,East Tamaki Heights,-36.9419002,174.9234722
+CC62687,11 11 Charitable Native Forest No 1 Limited,Auckland,,3 Timberly Road, ,2022,Māngere,-36.9839878,174.7880402
+CC62688,Maiea Charitable Trust,Auckland,,27 Kaimoana Street, ,2103,Weymouth,-37.0419632,174.869988
+CC62690,Stopping Violence Dunedin Charitable Trust,Dunedin,,31 Stafford Street, ,9016,Dunedin Central,-45.8805208,170.4989287
+CC62691,Alofa Tunoa Onehunga,Auckland,,Flat 4,5 Moana Avenue,1061,Onehunga,-36.9149044,174.7909313
+CC62693,Mana Whenua Whanau Whaikaha ,Palmerston North,,2 Clyde Crescent, ,4414,Roslyn,-40.3382951,175.6366957
+CC62692,Kia Hākinakina Wairarapa,Masterton,,371 Queen Street,,5810, ,-40.955454,175.653764
+CC62698,Tony's Place Charitable Trust,Wellington,,3 Atherton Terrace, ,6037,Churton Park,-41.1932966,174.8046186
+CC62695,Te Tauihu Community Development Agency,Nelson,,322 Hardy Street,Nelson 7010,7010, ,-41.2747427,173.2893268
+CC62696,Nissarana Meditation Centre Auckland ,Auckland,,Flat 1,24 Headcorn Place,2010,Botany Downs,-36.9149457,174.9135325
+CC62694,International Play Association Aotearoa New Zealand Incorporated,Auckland,,Flat 2,94 Fowlds Avenue,1025,Sandringham,-36.8930883,174.7303584
+CC62702,The Mustard Seed New Zealand Charitable Trust,Auckland,,19A Watene Road, ,1060,Mount Wellington,-36.9067887,174.8555491
+CC62703,Climate Club Aotearoa,Auckland,,Level 1,101 Pakenham Street West,1010,Auckland Central,-36.8433361,174.7570143
+CC62699,AUCKLAND UNITARIAN CONGREGATION INCORPORATED ,Auckland,,1A Ponsonby Road, ,1011,Grey Lynn,-36.858736,174.7515941
+CC62701,Diamond Harbour Cat Rescue,Christchurch,,38 Birmingham Drive, ,8024,Middleton,-43.5431741,172.5858741
+CC62700,Mid Canterbury Community Wellbeing and Safety Enhancement Trust ,Ashburton,,255 Moore Street,,7700, ,-43.9078133,171.7483251
+CC62707,Eastern Bay of Plenty Migrant Advice and Support Trust,Whakatane,,38 Fishermans Drive,,3120,Coastlands,-37.9320093,176.9688577
+CC62706,Embolden Trust,Auckland,,44Q Ngaoho Place, ,1010,Parnell,-36.8492507,174.7763922
+CC62704,Narrows Park Charitable Trust,Hamilton,,442 Airport Road,RD 2,3282,Rukuhia,-37.8475638,175.3479785
+CC62705,P?mu He Ringa ?whina,Wellington,,Level 2 15 Allen Street,PO Box 5349,6140, ,-41.2929532,174.7826113
+CC62708,Te Rehua o Wairere Trust,Hamilton,,1047 Gordonton Road,RD 1,3281,Gordonton,-37.6706615,175.3051817
+CC62712,FIGHT FOR RANGATAHI TRUST,Christchurch,,Unit 5,245 Blenheim Road,8041,Upper Riccarton,-43.5390133,172.5866053
+CC62715,The Awhina Trust,Papakura,,4 Snowden Place, ,2113,Opaheke,-37.0778756,174.9494958
+CC62713,Laenye Productions,Auckland,,18,Kotinga Avenue,602,Glen Eden,-36.9239728,174.6391804
+CC62711,Church of Purpose Dargaville Trust Board,Dargaville,,857 Opanake Road,RD 2,372,Mamaranui,-35.855699,173.7940908
+CC62710,Latter Rain Mission New Zealand (LRM New Zealand),Silverdale,,15 Bankside Road,,932, ,-36.6015004,174.6662099
+CC62709,Pasifika Fiafia Kirikiriroa Inc,Hamilton,,3 London Street, ,3204,Hamilton Central,-37.7833772,175.280924
+CC62714,Partridge Family Foundation Trust,Auckland,,75 Queen Street,,1010,Auckland Central,-36.8453374,174.7661951
+CC62716,Chatterbox Charitable Trust,Auckland,,6 Raymond Street, ,1022,Point Chevalier,-36.8595772,174.7018527
+CC62719,TANGIMOANA BOAT RAMP CHARITY INCORPORATED,Tangimoana,,52 Punga Street,,4822, ,-40.2987176,175.2437386
+CC62717,Spark That Chat Limited,Havelock North,,5 Havelock Road,,4130, ,-39.669808,176.8765878
+CC62718,Piako Waihou Catchment Trust,Morrinsville,,360 Morrinsville-Walton Road,RD 1,3371, ,-37.6835079,175.5505123
+CC62720,OUT&about Wānaka,Wanaka,,124 Beacon Point Road, ,9305,Wānaka,-44.6805695,169.1294353
+CC62722,Hunua Bird Life Charitable Trust,Papakura,,2826A Hunua Road,RD 3,2583,Hunua,-37.0680344,174.9577514
+CC62721,Die Voortrekkers New Zealand,Cambridge,,32 Thirlwall Lane,RD 3,3495, ,-37.9005139,175.4267575
+CC62723,MacStrong Charitable Trust,Auckland,,133 Albionvale Road, ,602,Glen Eden,-36.9068458,174.6329304
+CC62724,Digital Discipline Charitable Trust,Auckland,,PO Box 112105,,1642,Penrose,-36.919513,174.8198715
+CC62729,Wellington Heritage Festival Trust,Wellington,,58 Rintoul Street, ,6021,Newtown,-41.3138052,174.7782997
+CC62726,Wellington Kidney Support Society Incorporated,Wellington,,311 The Parade, ,6023,Island Bay,-41.3407732,174.7714785
+CC62727,Middleton Grange School Foundation,Christchurch,,30 Acacia Avenue, ,8041,Upper Riccarton,-43.5356223,172.5758419
+CC62728,Christian Schools Foundation,Christchurch,,30 Acacia Avenue, ,8041,Upper Riccarton,-43.5356223,172.5758419
+CC62725,The Jade Kenney-Blackman Foundation,Christchurch,,48 Glandovey Road,,8052,Fendalton,-43.5162428,172.5977069
+CC62731,Tupuhaere ki te rangi,Kaikohe,,571 Orakau Road, ,474,Punakitere Valley,-35.4813947,173.8843887
+CC62730,Aotearoa Christian Gospel Church Manatōpū Incorporated,Auckland,,Flat 1,570 Remuera Road,1050,Remuera,-36.8812464,174.8101848
+CC62732,One11One Trust,Pokeno,,7 Clark Rise, ,2402,Pōkeno,-37.2515734,175.0042217
+CC62734,The Potter's House Christian Church - Hastings,Hastings,,13 Rito Place, ,4120,Flaxmere,-39.6127064,176.7757904
+CC62735,The Vision Living Charitable Trust (Auckland),Auckland,,100A Mellons Bay Road, ,2014,Mellons Bay,-36.8882065,174.931209
+CC62733,Paparoa Pride,Paparoa,,35 Wairere Valley Road,RD 1,571, ,-36.0869137,174.2719752
+CC62740,Mahi Mātātoa Trust,Rangiora,,11 Wairepo Close,,7400, ,-43.3070275,172.6042524
+CC62736,Mauga o Horepa Samoan AOG Charitable Trust,Auckland,,14 Robert Skelton Place, ,2103,Clendon Park,-37.0311027,174.8665046
+CC62738,Friends of Aria Community Incorporated,Aria,,10 Barcley Rd,,3979, ,49.1658836,-123.9400647
+CC62737,Inspired Faith Church Christchurch,Christchurch,,69 Redgrave Street, ,8025,Hoon Hay,-43.5619482,172.5923193
+CC62746,Pollok Community Centre Inc,Pollok,,4 Cemetery Road,Pollok 2684,2684,Pollok,-37.1394948,174.6177119
+CC62741,T?tara Point Charitable Trust Board,Auckland,,3A Ferner Avenue, ,1025,Mount Albert,-36.8865603,174.7177474
+CC62742,Te Tumu Whakatupu Number 2 Limited,Porirua,,Level 2,1 Cobham Court,5022,Porirua City Centre,-41.1359906,174.8393908
+CC62747,Meraj Trust Board,Christchurch,,370 Wigram Road, ,8025,Halswell,-43.5647708,172.5528006
+CC62743,Kimihia Number 3 Limited,Porirua,,Level 2,1 Cobham Court,5022,Porirua City Centre,-41.1359906,174.8393908
+CC62744,Whiria te Waitaki Limited,Moeraki,,43 Tenby Street,Palmerston,9482,,-45.3619517,170.8542732
+CC62745,Te Hononga o Ngā Awa Charitable Trust,Wairoa,,PO Box 416,,4160, ,,
+CC62739,Ng? P?p? Koror? Trust,Russell,,24 Gould Street,,202, ,-33.8832534,151.2784375
+CC62748,"Te Whanganui A Tara, Wahine Hunters",Lower Hutt,,32 Connolly Street,,5010,Boulcott,-41.202705,174.9142263
+CC62750,THEW ACADEMIC SCHOLARSHIP TRUST,Auckland,,Flat 3,3 Hallam Street,1025,Mount Albert,-36.8959609,174.7198439
+CC62752,Blue Nature Aotearoa,Auckland,,181-185 Westhaven Drive, ,1011,Westhaven,-36.8355035,174.745451
+CC62755,THE QUEER STUDENTS� ASSOCIATION OF TE HERENGA WAKA VICTORIA UNIVERSITY OF WELLINGTON INCORPORATED,Wellington,,Student Union Building Level 2/Kelburn Parade, ,6012,Kelburn,-41.2866671,174.7688013
+CC62749,Cornerstone Evangelical Baptist (Connect) Church Charitable Trust Board,Warkworth,,112 Percy Street,,910, ,-36.4058746,174.6616242
+CC62751,The Tarapunga Trust,Auckland,,18 Taurarua Terrace, ,1052,Parnell,-36.8532275,174.7877412
+CC62754,Green Plate Charitable Trust,Auckland,,67 Maurice Road, ,1061,Penrose,-36.9200806,174.8096682
+CC62756,North Wellington Dance Competition,Porirua,,103 Endeavour Drive, ,5024,Whitby,-41.1158046,174.9121511
+CC62757,Oxford Dark Sky,Oxford,,52 Bay Road,,7430, ,,
+CC62760,Denjo Judo Charitable Trust ,Kerikeri,,73C Riddell Road,,230, ,-35.2441846,173.9529401
+CC62759,Southern Community Op Shops Charitable Trust,Balclutha,,35 Clyde Street,,9230, ,-46.2379045,169.7397408
+CC62758,Alofa Fautua Support Services,Auckland,,6 Lili Chen Way,,2022,Mangere Bridge,-36.9575693,174.7848397
+CC62764,Five E Group Limited,Auckland,,PO Box 14129, ,1741,Panmure,-36.9011809,174.8570732
+CC62761,Ruamāhanga Farm Foundation,Martinborough,,1415 State Highway 53,RD 3,5783, ,-41.1917492,175.4362573
+CC62763,Rezpect Community Charitable Trust,Hastings,,2/300 Eastbourne Street West, ,4122,Hastings Central,-39.6407327,176.8399615
+CC62762,Headways Network Inc,Auckland,,7 Laingholm Drive, ,604,Laingholm,-36.9643467,174.6367562
+CC62768,The Lost Club Foundation,Silverdale,,26 Arriere Lane,,932,,-36.6046487,174.6737587
+CC62765,Together NZ Charitable Trust,Te Anau,,253D Ramparts Road,RD 1,9679, ,-45.4506207,167.7588046
+CC62773,Pacific Vision Aotearoa Trust,Auckland,,4 Roland Hill, ,602,Glen Eden,-36.916763,174.6589183
+CC62771,Carnegie Cultural Centre Incorporated,Westport,,3 Coates Street,,7825, ,-41.7392539,171.5999082
+CC62766,I Am the Way the Truth and the Life Community Church Centre Trust Board,Auckland,,Unit 12,57 Cavendish Drive,2104,Manukau,-36.9882211,174.8749255
+CC62767,Clifton Terrace Home and School Association Incorporated,Nelson,,888 Atawhai Drive, ,7010,Marybank,-41.2244484,173.3224589
+CC62769,Te Hiwa a Māhaki Trust,Napier,,37 Hillary Crescent, ,4110,Maraenui,-39.5128016,176.899425
+CC62772,Bring a Smile Charitable Trust,Wellington,,214 Main Road, ,5028,Tawa,-41.1692057,174.8252848
+CC62774,Te Waiwhiri ō Pukewa ,Waihi,,9 Mataura Road,,3610, ,-37.3836388,175.8557094
+CC62776,Te Wā The Space,Christchurch,,74 Hawdon Street, ,8023,Sydenham,-43.5432739,172.6391265
+CC62778,Ministry of Nirvana Incorporated,Wellington,,13A Hawtrey Terrace, ,6037,Johnsonville,-41.2150012,174.8080912
+CC62777,Moana Children's Centre Trust,Auckland,,141 Bader Drive, ,2022,Māngere,-36.9696337,174.8021012
+CC62775,Tahumuri Limited,Kaikōura,,7 Takahanga Terrace,,7300,,-42.4060253,173.6806583
+CC62779,HAIL Magazine Charitable Trust,Nelson,,9 Jenville Way, ,7010,The Wood,-41.2700164,173.2909309
+CC62785,Love The One Trust,Tauranga,,53 Hallmark Rise, ,3110,Bethlehem,-37.7030599,176.1219488
+CC62780,Te Tūmatakahuki Society Incorporated,Palmerston North,,Level 3,31 George Street,4410, ,-40.3560858,175.6087202
+CC62782,Onekawa Swimming Charitable Trust Board,Napier,,26 Gallipoli Road, ,4110,Onekawa,-39.5056912,176.891156
+CC62783,Te Ihowai Limited,New Plymouth,,321A Mangorei Road, ,4312,Merrilands,-39.0756099,174.1081172
+CC62784,Lions Club of Waikiwi Incorporated,Invercargill,,206 Racecourse Road, ,9810,Glengarry,-46.3971771,168.3884479
+CC62781,ARBEZ,Tauranga,,10 Berkeley Grove, ,3110,Bethlehem,-37.7030694,176.1257257
+CC62787,Bridge Valley Limited,Wakefield,,28 Moore Road,RD 1,7095, ,-41.4222413,173.0768013
+CC62786,New Zealand Agricultural Show Investment Trust,Christchurch,,"Level 1, 1 Papanui Road", ,8014,Merivale,-43.5205115,172.6274392
+CC62793,Te Manawa Ora ki Te Whanganui-a-Tara,Wellington,,169 Adelaide Road, ,6021,Newtown,-41.3065246,174.7783994
+CC62790,Bashkls Charitable Trust,Palmerston North,,406 Pahiatua Aokautere Road,RD 1,4471,Aokautere,-40.3958272,175.6906678
+CC62788,THE BUDDHIST ASSOCIATION OF NEW ZEALAND INCORPORATED,Auckland,,Suite 9B,Krukzeiner House,1010,Auckland Central,-36.8476685,174.765441
+CC62792,Queen Mary Historic Reserve Charitable Trust Hanmer Springs,Amberley,,66 Carters Road,Amberley 7410,7410,,-43.151971,172.7288358
+CC62789,Kaipara Centre for the Arts Charitable Trust,Paparoa,,3 Franklin Road,,571, ,-36.1009449,174.2329843
+CC62791,Te Rawhiti Work Trust,Hikurangi,,199 Rawhiti Road,RD 4,184,Rawhiti,-35.2319197,174.261065
+CC62799,Central Hawkes Bay Pregnancy and Parenting Ruahine Whakawhanau Tamariki Trust,Waipukurau,,1 Cook Street,,4200, ,-39.9948906,176.5491778
+CC62796,Schooled Limited ,Christchurch,,89 Nazareth Avenue, ,8024,Middleton,-43.5441822,172.5792842
+CC62795,CES Foundation,Christchurch,,89 Nazareth Avenue, ,8024,Middleton,-43.5441822,172.5792842
+CC62794,Gurkha Football Club Incorporated,Auckland,,18 Jasper Avenue, ,1041,Mount Roskill,-36.9027217,174.7394397
+CC62797,Cure ECHS1D Aotearoa Charitable Trust,Richmond,,83 Edens Road,RD 1,7081,Hope,37.5407246,-77.4360481
+CC62798,Haraki Marae,Te Puke,,255 Manoeka Road,RD 3,3183, ,-37.7848429,176.2943708
+CC62801,Helen Lowry Hall Trust,Wellington,,C/- TFS Chartered Accountants,214 Main Road,5028,Tawa,-41.1692057,174.8252848
+CC62800,Te Papa Mau ,Auckland,,11B Sturges Road, ,612,Henderson,-36.8741602,174.6222208
+CC62803,K’aute Pasifika Medical Limited Partnership,Hamilton,,"Level 1, Citisite House",960 Victoria Street,3200,Whitiora,-37.7793863,175.2762487
+CC62804,K'aute Pasifika ECE Limited Partnership,Hamilton,,"Level 1, Citisie House",960 Victoria Street,3200,Whitiora,-37.7793863,175.2762487
+CC62802,"Philadelphia International Church, Christchurch",Christchurch,,Flat 4,472 Gloucester Street,8011,Linwood,-43.5301529,172.6594233
+CC62805,Thriving Communities Aotearoa,Auckland,,201 Broadway, ,1023,Newmarket,-36.8691297,174.7775763
+CC62807,Papakainga Housing Foundation Trust,Hamilton,,PO Box 981,Waikato Mail Centre,3240,Hamilton Central,-37.785316,175.2811683
+CC62808, NYINGMA TSHOPHU BUDDHIST NZ TRUST,Auckland,,"Level 2, 17 Rawene Road", ,1023,Birkenhead,-36.8127835,174.7259759
+CC62809,Equippers Warkworth Trust,Auckland,,13 Gladding Place,,2104,Manukau,-36.9904123,174.8862575
+CC62806,Saint Nicholas Children's Trust,Mount Maunganui,,257 Maunganui Road,Mount Maunganui 3116,3116, ,-37.6411091,176.1850868
+CC62811,Ponsonby Community Centre Trust,Auckland,,20 Ponsonby Terrace,,1011,Ponsonby,-36.8501893,174.7421588
+CC62813,Support Your Local - Wellsford Trust Board,Wellsford,,998 Wharehine Road,RD 3,973,Wharehine,-36.2979503,174.4258933
+CC62812,NAPIER MALAYALI ASSOCIATION INCORPORATED,Hastings,,75 Lochhead Street, ,4120,Mahora,-39.6200012,176.8511334
+CC62810,"White Rock Community, Incorporated",Rangiora,,1450 Loburn Whiterock Road,RD 2,7472,Loburn,-43.1737836,172.4458221
+CC62814,Hibiscus Tuakana Pacific Trust,Whangaparaoa,,5 Brixton Road, ,930,Manly,-36.6347542,174.7625232
+CC62815,Ulusina Tuvalu Auckland Trust,Auckland,,13B Gwendoline Avenue, ,610,Te Atatu Peninsula,-36.8326117,174.6502111
+CC62817,THE REWI ALLEY FOUNDATION OF NEW ZEALAND,Auckland,,34 Shortland Street,,1010,Auckland Central,-36.8465689,174.7677105
+CC62819,Te Puawaitanga Charitable Trust,Mangawhai,,34 Insley Street,,505, ,-36.1293267,174.5770562
+CC62818,JourneyED Eating Disorder Support Aotearoa,Dunedin,,45 Littlebourne Road, ,9010,Roslyn,-45.8672994,170.4970252
+CC62820,Canterbury Hearing Support Association Incorporated,Christchurch,,71 Gilberthorpes Road, ,8042,Hei Hei,-43.5355704,172.5181398
+CC62821,Friends of St Ignatius of Loyola Catholic College,Drury,,485 Burtt Road,RD 2,2578,Runciman,-37.1298003,174.9315443
+CC62816,Wāhine Toa Divers ,Paeroa,,35 Aorangi Road,,3600, ,-37.3785975,175.6815679
+CC62822,Te Whare Haka o Tainui Charitable Trust,Hamilton,,23 Forth Crescent, ,3206,Glenview,-37.8235294,175.2828768
+CC62823,Mangawhai sailing charitable trust,Mangawhai,,45 Windsor Way,,975, ,-36.1272737,174.5870906
+CC62825,Transformative Whakamana Hapu Foundation,Papakura,,4 Kirikiri Drive,,2110, ,-37.0561673,174.9720276
+CC62828,Tamariki Tū Tamariki Ora Limited,Hamilton,,115 Rostrevor Street, ,3204,Hamilton Central,-37.7835461,175.274729
+CC62824,Free Legal Association,Auckland,,41 Lingham Crescent, ,630,Torbay,-36.7035052,174.7294598
+CC62829,Hunt For Good Trust,Whakamārama,,145F Whakamarama Road,,3179, ,-37.694422,176.0195896
+CC62827,Matapu School Parents Association,Hawera,,495 Hastings Road,RD 15,4675,Matapu,-39.4791989,174.2267002
+CC62830,The Auckland Pacific Wardens Charitable Trust,Auckland,,19 Hall Avenue,,1062,Ōtāhuhu,-36.9445525,174.8432513
+CC62826,Women in Horticulture Tairawhiti Incorporated,Gisborne,,1341 Back Ormond Road,RD 1,4071,Ormond,-38.5810131,177.9301072
+CC62833,Compassion Prison Project Aotearoa,Palmerston North,,117 Jickell Street, ,4410,Hokowhitu,-40.3715335,175.6290989
+CC62831,Hukatere Community Charitable Trust,Matakohe,,256 Neems Road,RD 1,593,Tinopai,-36.1891295,174.1889986
+CC62832,MESSAGE OF GRACE TABERNACLE INC,Cambridge,,24 Kingsley Street, ,3432,Leamington,-37.8995001,175.4826179
+CC62835,THE VILLAGE GREEN COMMUNITY TRUST,Tauranga,,20 Third Avenue,,3110,,-37.6869653,176.1654272
+CC62836,Auckland War Memorial Museum Pacific Advisory Group Alumni Trust,Auckland,,Flat 4,15 Bank Street,1024,Mount Eden,-36.8905618,174.7572756
+CC62834,Social Innovation Limited,Hamilton,,293 Grey Street, ,3216,Hamilton East,-37.7946771,175.2931808
+CC62838,Westland Greenstone Limited,Hokitika,,56A Brittan Street,,7810, ,-42.7198734,170.9697715
+CC62840,HIS HIGHEST PRAISE WORSHIP CENTER NEW ZEALAND,Auckland,,79 Queenstown Road, ,1061,Onehunga,-36.9182004,174.768832
+CC62839,Global Care Mission (GLOCAM),Auckland,,18 Koropa Road, ,2019,Flat Bush,-36.9743603,174.9262915
+CC62837,Project Saved Charitable Trust,Auckland,,"C/- Bentleys Accountants Ltd, L8 AIG Building ", 41 Shortland Street,1010,Auckland Central,-36.8470127,174.767761
+CC62843,2023 Gallagher Charitable Trust,Hamilton,,181 Kahikatea Drive, ,3204,Melville,-37.8081554,175.2698342
+CC62844,AUCKLAND OVER40S CRICKET INC,Auckland,,202-210 Green Lane West, ,1051,Epsom,-36.8934106,174.7804246
+CC62842,Hawkes Bay Remnant Church of the Living God,Havelock North,,29 St Hill Lane,,4130, ,-39.6644353,176.8836156
+CC62841,Community Church of Akaroa Banks Peninsula,Akaroa,,39 Rue Lavaud,,7520, ,-43.8033544,172.968799
+CC62847,Tunuma Creative Trust,Auckland,,44K Constellation Drive, ,632,Rosedale,-36.749248,174.72983
+CC62851,MESPA SOLUTIONS FOUNDATION,Kerikeri,,273 Kerikeri Inlet Road,,230, ,-35.2179353,173.9785793
+CC62849,Le Afio'Aga O Aotearoa Trust,Auckland,,Unit 1,19 Edwin Street,1024,Mount Eden,-36.8701078,174.7618509
+CC62845,Te Kauri Tohora,Moerewa,,25 Otiria Road,,211, ,-35.390172,174.0112068
+CC62850,Signature Tautai,Wellington,,87D Darlington Road,,6022,Miramar,-41.3089564,174.8247135
+CC62848,HOLY CITY CHURCH INCORPORATED,Auckland,,27 Fruitvale Road, ,600,New Lynn,-36.9116777,174.6675478
+CC62846,JASS JEEVAN,Papakura,,16 Tairere Crescent, ,2113,Rosehill,-37.0801146,174.9357032
+CC62854,The Busy School NZ Limited,Wellington,,215 Lambton Quay,"Grant Thornton Level 15, ",6011,Wellington Central,-41.2847499,174.7756502
+CC62853,THE SHERALYN TIPENE-WEEPERS CHARITABLE TRUST ,Dunedin,,115 Cavell Street, ,9013,Tainui,-45.902359,170.5229432
+CC62852,Whatawhata Community Hall Incorporated,Hamilton,,1 Rothwell Lane,RD 9,3289,Whatawhata,-37.7969665,175.1528583
+CC62855,Tinwald Netball Club,Ashburton ,,1 Maronan Road , ,7778,TInwald,-43.9247391,171.7086199
+CC62856,Abbeyfield Wanaka Incorporated,Wanaka,,4 Karearea Rise, ,9305,Wānaka,-44.6777312,169.140666
+CC62862,Malaga Sā,Porirua,,31 Doncaster Terrace, ,5024,Ascot Park,-41.1132027,174.872107
+CC62857,Spectrum Work Aotearoa Charitable Trust,Auckland,,Flat 21,218 Captain Springs Road,1061,Onehunga,-36.9157297,174.7986134
+CC62864,Ocean Star - Fetu’u Moana Tongan Dance Academy,Auckland,,11 Waterview Road, ,2024,Favona,-36.9524232,174.7957773
+CC62859,Hope House Trust,Kaitaia,,5077 Far North Road,RD 4,484,Ngataki,-34.7545286,173.0624761
+CC62858,Abbeyfield Manukau Incorporated,Auckland,,17 Tuhono Street,,2104,Manukau,-36.9972848,174.8821981
+CC62861,Little Yellow Chair Trust,Temuka,,149 Domain Avenue,Temuka 7920,7920,,-44.2499151,171.2992817
+CC62863,Waipuna Papakainga Whanau Trust,Kaikohe,,26 Honey Street, ,473,Rawene,-35.4047963,173.5039188
+CC62860,Te Kāhui Manukura o Kai Ora Incorporated,Auckland,,14 Morvern Road, ,1023,Epsom,-36.8924075,174.7647472
+CC62866,All About Dance Limited,Wellington,,110 Hutt Road,,6035,Kaiwharawhara,-41.2610831,174.7893222
+CC62867,Granity District Fundraising Centre,Granity,,98 Torea Street,,7823, ,-41.6281607,171.8546326
+CC62868,New Zealand Himalayan Centre,Auckland,,18C Eaglehurst Road, ,1060,Ellerslie,-36.9005581,174.8195452
+CC62865,AWEKO KAI FOUNDATION,Rangiora,,255 Inglis Road,RD 3,7473,Okuku,-43.2058397,172.4247542
+CC62873,NEW LIFE MINISTRY CHURCH,Auckland,,14A Clinton Avenue, ,610,Te Atatū Peninsula,-36.8369698,174.6520674
+CC62872,The Anglican Community of Saint Mark Incorporated,Dunedin,,3 Grater Street, ,9010,Maori Hill,-45.8561912,170.4990367
+CC62871,Edgecumbe School Parent Teacher Association,Edgecumbe,,92 College Road,,3120,,-37.9699132,176.8282861
+CC62870,TE NGAE KAHIKATEA CONSERVATION CHARITABLE TRUST ,Rotorua,,1166 Amohau Street,,3010, ,-38.1403067,176.251548
+CC62869,Pita Ministry,Auckland,,Unit 1,58 Roberts Road,629,Glenfield,-36.7910109,174.7165846
+CC62876,Light Of Life Full Gospel Church Hastings,Hastings,,9 Lorne Crescent, ,4120,Flaxmere,-39.6299283,176.7973364
+CC62875,Whakaki Resilience Group Charitable Trust,Wairoa,,3 Hinepua Roadway,RD 6,4196,Whakaki,-39.0370356,177.5843733
+CC62877,The Charitable Recycling Trust,Wellington,,PO Box 13271, ,6440,Johnsonville,-41.220505,174.8077541
+CC62878,The Winner's Circle Foundation,Napier,,17A Gallipoli Road,,4110,Onekawa,-39.5048124,176.8896187
+CC62884,Tanenuiarangi Manawatū Charitable Trust ,Palmerston North,,140 Maxwells Line, ,4412,Awapuni,-40.3791599,175.5842512
+CC62880,Birkenhead United Association Football Club Incorporated,Auckland,,"Shepherds Park, Melba Street",,626, ,-36.7873262,174.6878594
+CC62883,THE JUDITH ROSE WILLIAMS TRUST,Orewa,,20 Waiwera Road, ,931,Waiwera,-36.5441237,174.7056527
+CC62882,BULA KIWIZ CHARITABLE FOUNDATION,Auckland,,11A Nicholson Avenue, ,2025,Papatoetoe,-36.9766448,174.8713495
+CC62881,RDU98.5FM Limited,Christchurch,,270 St Asaph Street, ,8011,Christchurch Central,-43.5367636,172.6419198
+CC62885,Institute of Public Works Engineering Australasia Limited,Christchurch,,123 Victoria Street, ,8013,Christchurch Central,-43.5236669,172.6296642
+CC62887,Kingsmen Outreach NZ,Papakura,,69 Saddleback Crescent,Papakura 2110,2110,,-37.050857,174.9521747
+CC62886,Alofawholeness,Auckland,,581 New North Road, ,1021,Kingsland,-36.8732514,174.7388391
+CC62891,Manahau Aotearoa Charitable Trust,Christchurch,,10 Welles Street, ,8011,Christchurch Central,-43.5370692,172.6373109
+CC62893,Lapita People,Auckland,,15 Benita Place, ,612,Sunnyvale,-36.9007232,174.6323479
+CC62889,We Are Loud Charitable Trust,New Lynn,,11 Rayner Road,RD 2,772,Piha,-36.9586654,174.4743975
+CC62894,Nukualofa Auckland Mission Base,Auckland,,101 Huia Road, ,1062,Otahuhu,-36.9446036,174.8362246
+CC62895,Empower Kids Charitable Trust,Auckland,,Unit 104,1A Kings Road,1041,Mount Roskill,-36.898181,174.7443488
+CC62888,Dunedin General Practitioners Society and After Hours Guild Incorporated,Dunedin,,18 Filleul Street, ,9016,Dunedin Central,-45.872149,170.5025845
+CC62890,The Dunedin After Hours Doctors Limited,Dunedin,,18 Filleul Street, ,9016,Dunedin Central,-45.872149,170.5025845
+CC62892,MTW Church,Auckland,,9 Argus Place, ,627,Wairau Valley,-36.7837301,174.7432717
+CC62897,Ngā Pou Herenga: the Funeral Guides' Collective,Ōpotiki,,763 Wainui Road, ,3198,Wainui,-38.019219,177.0815408
+CC62896,Taumutu Rūnanga Limited,Leeston,,Corner Pohau & Gullivers Road,,7683, ,-43.8544149,172.3422348
+CC62898,Empowerment Navigators,Porirua,,79A Matatiro Street, ,5022,Titahi Bay,-41.1105856,174.8363731
+CC62903,The New Zealand Taoist Association Charitable Trust,Auckland,,16 Waverley Street, ,1010,Auckland Central,-36.8550202,174.7639868
+CC62904,Athene Charitable Trust,Wellington,,Flat 402,Chaffers Dock,6011,Te Aro,-41.2906279,174.7849118
+CC62906,NOI Limited,Little River,,396 Western Valley Road,,7591, ,-43.7334889,172.7979562
+CC62905,WAIKATO NEW WAY INTERNATIONAL FELLOWSHIP,Hamilton,,64 Somerton Drive, ,3210,Huntington,-37.7271575,175.2865912
+CC62900,Lifting the Lid Hutt Valley Charitable Trust,Upper Hutt,,17 Baltimore Crescent, ,5018,Totara Park,-41.1090952,175.0912461
+CC62902,SRSL Assets Limited,Taupō,,87 Tauhara Road, ,3330,Tauhara,-38.6802863,176.0895004
+CC62899,Jason Swain Appeal Trust ,Renwick,,10 Uxbridge Street,Renwick 7204,7204,,-41.5063237,173.826228
+CC62901,Clifflife Church Trust,Whanganui,,16 Rangiora Street,,4501,Castlecliff,-39.9373909,174.9801442
+CC62907,Te Pae Ara-Rau Judy Alison Trust,Hamilton,,11 Leong Avenue, ,3204,Dinsdale,-37.7973859,175.2390934
+CC62908,Tihei Tākitimu Limited,Havelock North,,Level 1,8 Porter Driver,4130, ,-39.6706314,176.8758668
+CC62910,Protect Rakiura Trust,Stewart Island,,170 Horseshoe Bay Road, ,9818,Stewart Island/rakiura,-46.8869515,168.1352234
+CC62909,The Davey Bequest,Wellington,,Level 2,22 Willeston Street,6011,Wellington Central,-41.2864983,174.7767114
+CC62923,Ambedkar Mission Society NZ Incorporated,Ngaruawahia,,14 Durham Street, ,3720,Ngāruawāhia,-37.6684708,175.1466641
+CC62918,Tukino Ski Patrol Charitable Trust,Taupo,,44 Te Heuheu Street, ,3330,Taupō,-38.6878891,176.0717401
+CC62924,The No Game Charitable Trust,Rotorua,,29C Frank Street,,3010,Koutu,-38.1164058,176.232887
+CC62913,Anglican Parish of Temuka-Te Ngawai,Temuka,,2 Dyson Street,,7920, ,-44.2411017,171.277741
+CC62911,New Zealand Ulama Board Inc,Auckland,,5A Robertson Road, ,2024,Favona,-36.9530488,174.80184
+CC62914,Sustainable Shift Charitable Trust,Auckland,,Flat 1,264 Balmoral Road,1025,Sandringham,-36.8857395,174.7403447
+CC62921,Mathateca Charitable Trust,Christchurch,,16 Bridle Path Road, ,8022,Heathcote Valley,-43.5838934,172.7075092
+CC62915,The Potters House Christian Church Pukekohe,Pukekohe,,27A Isabella Drive,,2120, ,-37.1876733,174.9077827
+CC62912,MohiMohi Moana Foundation,Hikurangi,,1549 Rawhiti Road,RD 4,184,Whangaruru,-35.3096431,174.2970865
+CC62916,TE MATA PUBLIC HALL 1905 INCORPORATED,Raglan,,10 Church Lane,RD 2,3296, ,-37.8821603,174.8671769
+CC62917,Huarahi Pai,Tikitiki,,14D Maraehara Road,RD 1,4087, ,-37.7704851,178.4577049
+CC62919,WISDOM FELLOWSHIP TRUST,Whangaparaoa,,80 Beauvoir Avenue, ,930,Matakatia,-36.6240126,174.7804563
+CC62922,KRISHANBALRAM MANDIR (DUNEDIN) CHARITABLE TRUST,Dunedin,,38 Kirkcaldy Street,,9012,South Dunedin,-45.9008679,170.4955037
+CC62925,Friends of Hikuai School Charitable Trust,Hikuai,,24 Hikuai School Road,RD 1,3579, ,-37.0714285,175.7734885
+CC62920,Southern Cancer Society Trust,Christchurch,,74 Langdons Road, ,8053,Papanui,-43.4910494,172.6044148
+CC62931,ASHRAFUL AID NEW ZEALAND LIMITED,Auckland,,122 Blockhouse Bay Road, ,1026,Avondale,-36.8953409,174.7014186
+CC62927,BIBLE SOCIETY NEW ZEALAND CHARITABLE TRUST,Auckland,,PO Box 276017,Manukau City,2241,Manukau,-36.9869339,174.8813348
+CC62928,BLACKBURN AND JOHNSON LIMITED,Auckland,,58 Dignan Street, ,1022,Point Chevalier,-36.8567071,174.7067755
+CC62926,Hutt Valley Tennis Foundation Trust,Lower Hutt,,97 Cottle Park Drive, ,5010,Normandale,-41.1918158,174.8968846
+CC62932,Haderech Yeshua New Zealand Trust,Auckland,,44 San Marino Drive West, ,612,Henderson,-36.8911729,174.6076672
+CC62929,Theatre Hub Alexandra/Clyde,Alexandra,,19 Shannon Street,,9320, ,-45.2540356,169.3897784
+CC62930,Waitaki Pregnancy Support Charitable Trust,Oamaru,,Flat 2,44 Eden Street,9400, ,-45.0952349,170.9667066
+CC62940,Joined Up Systems Trust,Christchurch,,12 Overdale Drive, ,8022,Cashmere,-43.5695945,172.630874
+CC62935,WĀHINE WANAWANA - ARA KI ANGITU INCORPORATED,Wellington,,50B Maupuia Road, ,6022,Miramar,-41.3126525,174.8143707
+CC62938,All Age Connect Aotearoa,Whanganui,,7 Godwin Crescent, ,4500,College Estate,-39.9332254,175.0390916
+CC62942,Aotearoa Educators Collective,Auckland,,11 Rarawa Street, ,1024,Mount Eden,-36.8839264,174.7520118
+CC62937,Cooks Beach Community Centre Incorporated,Whitianga,,882 Purangi Road,RD 1,3591,Cooks Beach,-36.8380913,175.7371401
+CC62941,The Patrick Mooney Award Charitable Trust,Mosgiel,,30 Silver Springs Boulevard,,9024,,-45.8656546,170.3639675
+CC62943,THE NEW BEGINNING CHURCH TRUST ,Pokeno,,66 Leathem Crescent,,2402,Pōkeno,-37.2541692,175.0079557
+CC62934,Grace Community Fellowship,Auckland,,63 Kupe Street, ,1071,Orakei,-36.8582424,174.82438
+CC62933,The Potters House Christian Church East Hamilton,Hamilton,,31A Montgomery Crescent, ,3206,Bader,-37.8060471,175.2914441
+CC62936,Takapuna Korean Presbyterian Church Charities Trust,Auckland,,159 St Johns Road, ,1072,Saint Johns,-36.8739607,174.8387327
+CC62939,Upper Clutha Wilding Tree Group Incorporated,Wanaka,,8 Glenaray Crescent, ,9305,Wānaka,-44.6783869,169.15616
+CC62945,Wellington Temple Sinai Charitable Trust,Wellington,,147 Ghuznee Street, ,6011,Te Aro,-41.2919534,174.7709833
+CC62944,Abbeyfield Alexandra Incorporated,Alexandra,,1 Hart Place, ,9320,Bridge Hill,-45.2599602,169.3875753
+CC62949,Ngāi Tamawhariua Rūnanga Trust,Katikati,,111 Main Road,,3129, ,-37.5583724,175.9164815
+CC62947,Poutu Pasifika,Auckland,,713 Dominion Road, ,1041,Mount Eden,-36.892165,174.7454833
+CC62948,Malamaatu STEAM Academy Charitable Trust,Hamilton,,6 Everton Place, ,3200,Grandview Heights,-37.7808821,175.2228721
+CC62946,Connecting Otago Charitable Trust,Dunedin,,174 Princes Street, ,9016,Dunedin Central,-45.8768244,170.5019089
+CC62951,Samaritan's Purse Australasia - Operation Christmas Child Limited,Hamilton,,442 Airport Road,RD 2,3282,Rukuhia,-37.8475638,175.3479785
+CC62952,Marlborough Covenant Brothers Rugby Club (MCBRC),Blenheim,,15 Cleghorn Street, ,7201,Redwoodtown,-41.5302768,173.959496
+CC62950,Valley Community Workspace Incorporated,Dunedin,,11 Allen Street, ,9010,North East Valley,-45.8501929,170.5246353
+CC62961,North City Islamic Youth Centre,Porirua,,7 Serlby Place, ,5022,Porirua City Centre,-41.1350396,174.8405796
+CC62957,Experimental Horizons Limited,Christchurch,,19 Oakley Crescent,,8042,Hornby,-43.5552358,172.5376394
+CC62954,Discover NZ Stories/Tuhura Trust,Auckland,,Unit 5,Ocean Breeze Apts,630,Browns Bay,-36.7140756,174.7489123
+CC62959,Love Inspiration,Fairlie,,40 Jack Lovelock Track,RD 17,7987, ,-44.1037578,170.790098
+CC62956,Everyone's English Limited,Auckland,,38 Crawford Avenue,,2022,Mangere Bridge,-36.9420646,174.790284
+CC62958,New Zealand Sri Lanka Cultural Foundation Limited,Lincoln,,266 Verdeco Boulevard,,7608, ,-43.6527647,172.4637715
+CC62955,NZ Sikh Cultural Trust Katikati,Katikati,,242 Beach Road,RD 2,3178, ,-37.552401,175.9454993
+CC62953,Aotearoa Moana Observing System,Nelson,,6 Cross Quay, ,7010,Port Nelson,-41.2595734,173.2832695
+CC62963,Activate Health Limited,Hamilton,,21 Ruakura Road, ,3216,Hamilton East,-37.7790604,175.2998736
+CC62960,Convoys of Good,Auckland,,20A Godley Road, ,604,Green Bay,-36.9299425,174.6846386
+CC62964,Wahine Toa Rising,Tauranga,,29A Wylie Street,,3112,Gate Pa,-37.7188584,176.1271885
+CC62965,ESR Charitable Solutions Limited,Porirua,,34 Kenepuru Drive, ,5022,Kenepuru,-41.1472065,174.8389182
+CC62967,The Sherwood Foundation Inc,Wellington,,Apartment 602,Te Kainga,6011,Te Aro,-41.3199838,174.7970628
+CC62968,People for People Kapiti Charitable Trust,Paraparaumu,,111 Main Road North,,5036, ,-40.8739164,175.0680551
+CC62969,Mana Ahuriri Charitable Trust,Napier,,170A Waghorne Street, ,4110,Ahuriri,-39.4788954,176.9084128
+CC62970,65plus Band Charity Trust,Auckland,,147A Grand Drive, ,1050,Saint Johns,-36.8783342,174.8284279
+CC62975,Wushu Development of New Zealand Trust Board,Auckland,,36 Galway Street, ,1061,Onehunga,-36.9260607,174.7874808
+CC62974,Character Coalition Incorporated,Auckland,,71 Bomb Point Drive, ,616,Hobsonville,-36.7949531,174.6692127
+CC62971,Crimson Global Foundation Limited,Auckland,,18 Stanley Street, ,1010,Auckland Central,-36.8517391,174.7749946
+CC62973,United Punjab Trust,Te Puke,,322 Manoeka Road,RD 3,3183, ,-37.7900431,176.2912358
+CC62976,Hetariki Sports,Orewa,,10 Astor Place,,931, ,-36.581496,174.6783971
+CC62979,Mana Futures Charitable Trust,Auckland,,31 Atarangi Road, ,1051,Greenlane,-36.8939913,174.794241
+CC62980,Beyond Animal Research Charitable Trust,Christchurch,,Flat 2,99 Bayswater Crescent,8062,Bromley,-43.545272,172.6937487
+CC62977,The Graveyard Shift,Upper Hutt,,25B Memphis Grove, ,5018,Totara Park,-41.1078845,175.0914185
+CC62978,We The People New Zealand Community Incorporated,Auckland,,19 Pantera Way,,2102,Hillpark,-37.0057837,174.895184
+CC62983,Christchurch McKennas GAA Club Incorporated,Christchurch,,29 Domain Terrace, ,8024,Spreydon,-43.557312,172.6035112
+CC62982,Te Manawaroa Charitable Trust,Otaki,,5 Main Street, ,5512,Ōtaki,-40.7521543,175.1374739
+CC62981,He Kai Kei Aku Ringa ki Te Tauihu,Motueka,,9 Quayle Street,,7120, ,-41.1340176,173.0093482
+CC62984,Koru Parenting Hub Limited,Whangarei,,5 Manawa Drive,RD 3,173,Ngunguru,-35.635505,174.4948373
+CC62986,Animals Matter Charitable Trust,Invercargill,,11 Tui Place,RD 9,9879,Otatara,-46.4386809,168.3048924
+CC62985,O.O.S Media,Rotorua,,19A Raniera Place, ,3015,Springfield,-38.1626442,176.2204364
+CC62988,Anni Bloom,Whangarei,,5 Kereru Street, ,110,Maunu,-35.7401062,174.2932401
+CC62987,Waikato Research Hospital Charitable Trust,Hamilton,,430 Victoria Street, ,3204,Hamilton Central,-37.785819,175.2820112
+CC62997,THE GIVING FOREST OF ROTOITI (TE NGAHERE TUKU ROTOITI),St. Arnaud,,5 Glacial Terrace,,7072, ,-41.8004582,172.849624
+CC62989,Tika Charitable Trust,Auckland,,18 Viaduct Harbour Avenue, ,1010,Auckland Central,-36.8454258,174.7577411
+CC62998,Oamaru Pacific Island Trust,Oamaru,,26 Ribble Street,,9400, ,-45.0958908,170.9737933
+CC62991,Kōhatu Ora ,Kaitaia,,67A Whatuwhiwhi Road,RD 3,483,Karikari Peninsula,-34.8752599,173.3918241
+CC62995,Hanley's Farm Community Garden Association Incorporated,Queenstown,,7 Muster Road, ,9371,Jacks Point,-45.0657407,168.751992
+CC62993,Cust Village Church,Rangiora,,347 Davis Road,RD 1,7471,Cust,-43.2695589,172.3811778
+CC62996,Marlborough Chinese Community Incorporated,Blenheim,,12 Houghton Crescent, ,7201,Redwoodtown,-41.5243846,173.9558425
+CC62992,Clearview Park Lions Club Charitable Trust,Palmerston North,,TH 66,28 Dogwood Way,4414,Milson,-40.3277456,175.6156547
+CC62994,North Canterbury Masters Swimming Club,Rangiora,,7B Wiltshire Court,,7400,,-43.3090252,172.5855312
+CC62990,Pye's Pa Hall Incorporated,Tauranga,,627B Pyes Pa Road,RD 3,3173,Pyes Pa,-37.7882782,176.1206461
+CC62999,Redwood Reformation Charitable Trust,Te Awamutu,,432 Raikes Avenue,,3800, ,-38.0171792,175.3309888
+CC63002,The Gordon MacKenzie Endowments,Wellington,,Unit 2,22 Willeston Street,6011,Wellington Central,-41.2864983,174.7767114
+CC63003,AOTEAROA DISASTER AND COMMUNITY RESOURCES LIMITED ,Thames,,23 Kopu Road,RD 1,3578,Kopu,-37.1850066,175.5681162
+CC63000,Te Manu Korero O Nga Matauranga Central King Country REAP Trust,Taumarunui,,115 Hakiaha Street, ,3920,Taumarunui,-38.8830988,175.2649105
+CC63001,New Zealand Blood Clot Foundation,Auckland,,2 Schnapper Rock Road, ,632,Schnapper Rock,-36.7557336,174.7009066
+CC63004,The Mission House Trust,Whangarei,,84 Kara Road,RD 9,179,Maungatapere,-35.7348591,174.2222489
+CC63006,Kōhatu Makaawhio Limited,Hokitika,,56A Brittan Street,,7810, ,-42.7198734,170.9697715
+CC63008,Te Oranga Tahi o Tuna Tahi,Dargaville,,36 Victoria Street,,310, ,-35.9428497,173.8686777
+CC63005,FND Aware NZ,Hastings,,606A Alexandra Street, ,4122,Parkvale,-39.6421119,176.8568994
+CC63009,Awhi Mai Nga Wahine Me Nga Whanau Trust,Napier,,10 Ngati Hinewera Lane,RD 3,4183,Waiohiki,-39.5552243,176.8356518
+CC63007,KINGDOM OF HOPE MINISTRY,Auckland,,27 Vine Street, ,2024,Mangere East,-36.9591747,174.8283149
+CC63010,Cultural Solutions Charitable Trust,Rotorua,,36 Tarewa Road,,3010, ,-38.1324273,176.2412597
+CC63013,Te Aukaha Foundation Limited,Auckland,,Regent Chambers,"Level 4, 68 Shortland Street",1140, ,-36.8468761,174.7690152
+CC63011,Collaborative Aotearoa Charitable Trust ,Rotorua,,1179-1183 Arawa Street,Rotorua 3010,3010, ,-38.1346463,176.2509429
+CC63015,Kihi Charitable Trust,Bluff,,88 Gore Street,Bluff 9814,9814, ,-46.5991428,168.3439283
+CC63014,Integrated Sport New Zealand,Lower Hutt,,67A Pretoria Street, ,5010,Hutt Central,-41.2075514,174.9168307
+CC63012,Puna Atea Limited,Taumarunui,,54 Porou Street,,3920, ,-38.8871053,175.2958724
+CC63020,Gathering at the Gate Incorporated,Dunedin,,97 Evans Street, ,9010,Opoho,-45.8524,170.5315318
+CC63018,WHANGAREI MARTHOMA CHURCH INCORPORATED,Whangarei,,17 Tieke Place, ,110,Horahora,-35.7325756,174.2875445
+CC63016,Living Jesus,Papakura,,21 Prictor Street,,2110, ,-37.0599716,174.9465324
+CC63017,Muka Whānau Services Charitable Trust,Hastings,,903 Florence Street, ,4120,Raureka,-39.6398813,176.8250382
+CC63019,Inglewood Community and Services Hub,Inglewood,,6 Mamaku Street,,4330, ,-39.1564536,174.1989004
+CC63022,Men Making Miles,Tauranga,,21 Eclipse Terrace, ,3112,Welcome Bay,-37.7306826,176.1986406
+CC63021,ORANGA MATIHIKO CHARITABLE TRUST,New Plymouth,,131 South Road,,4310,Spotswood,-39.0720294,174.0352039
+CC63023,TE MAEVA NUI O AOTEAROA NEW ZEALAND CHARITABLE TRUST                  ,Auckland,,Unit 1,133 Great South Road,2102,Manurewa,-37.0194758,174.8937125
+CC63024,The Victory Shout for Jesus Ministry (NZ),Takanini,,34B Takanini Road,,2112, ,-37.0449035,174.9247909
+CC63025,Conservation Engineering Society of Aotearoa (CESA) Inc,Takanini,,13 Periko Way,,2112,,-37.0361899,174.9076882
+CC63027,Henderson Valley Sports Trust Board,Kumeu,,117 Worrall Road,RD 1,891,Kumeū,-36.8108383,174.5134566
+CC63026,Takapaukura Foundation,Hamilton,,39 Aldona Place, ,3214,Fairview Downs,-37.7597731,175.309185
+CC63029,CCS DISABILITY ACTION,Wellington ,,"Level 3, 94 Dixon Street", ,6011,Te Aro,-41.291026,174.7747526
+CC63030,CCS DISABILITY ACTION FOUNDATION,Wellington,,"CCS Disability Action, Level 3, 94 Dixon Street", ,6011,Te Aro,-41.2910517,174.7747338
+CC63028,Teddy Foundation,Athol,,67 Athol Five Rivers Highway,Athol 9793,9793, ,-45.5088979,168.5651217
+CC63031,The Pohutukawa East Coast Trust,Tokomaru Bay,,6 Waiotu Road,,4079, ,-38.1360544,178.3159395
+CC63032,Nanny Raiha Charitable Trust,Auckland,,4Q Lone Tree Avenue, ,610,Te Atatu Peninsula,-36.845105,174.6534346
+CC63039, Clutha/Mata-Au Sportsfish and Habitat Trust,Twizel,,16 Matukituki Crescent, ,7944,Twizel,-44.2745217,170.0846806
+CC63038,Kakanui Volunteer Fire Brigade,Oamaru,,9 Kakanui Road, ,9495,Kakanui,-45.1814836,170.8989295
+CC63033,KOI TŪ TRUST,Auckland,,18 Waterloo Quadrant,,1010,Auckland Central,-36.8488817,174.771426
+CC63036,St Marks Eye Centre Education and Research Trust,Auckland,,C/- Foley Hughes,"Level One, 20 Beaumont Street",1142,Freemans Bay,-36.8466273,174.7518497
+CC63034,Mangawhai Lions Club Charitable Trust,Mangawhai,,Flat 3,27 Olsen Avenue,505,Mangawhai Heads,-36.0873954,174.5851036
+CC63035,LIGHT OF LIFE SAMOA MINISTRY TRUST,Hastings,,1011 Bledisloe Street, ,4120,Raureka,-39.6394794,176.8198141
+CC63037,Plimmerton Community Menzshed Incorporated,Porirua,,9 Moana Road,,5026,Plimmerton,-41.0781414,174.8629509
+CC63040,Samoan Assembly of God Church New Vision Pakuranga Trust Board,Auckland,,56 Pearl Baker Drive, ,2023,Otara,-36.9511536,174.8906946
+CC63042,Nga Hapu o Otaki Incorporated,Otaki,,29 Health Camp Road, ,5512,Otaki Beach,-40.7441934,175.1163496
+CC63041,Zion Church,Nelson,,161A Kawai Street South, ,7010,Nelson South,-41.288871,173.2710258
+CC63044,Waipatu Māori Club Inc,Hastings,,10 Northwood Avenue,,4120,Mahora,-39.6224298,176.851933
+CC63043,Aotearoa Sustainability Grid Charitable Trust,Auckland,,1254A New North Road, ,1026,Avondale,-36.8960612,174.7031106
+CC63045,Selwyn Sings Trust,Rolleston,,11B Sheridan Drive,,7614,,-43.6114402,172.3670824
+CC63047,Te Whare Tū Tauā ki Tauranga Moana Charitable Trust,Tauranga,,263 Bethlehem Road, ,3110,Bethlehem,-37.6811441,176.1139042
+CC63046,St Cuthbert's College Foundation Board,Auckland,,122 Market Road, ,1051,Epsom,-36.8879251,174.7785304
+CC63052,Better Future New Zealand Trust,Auckland,,23 Littlejohn Street,,1042,Hillsborough,-36.9183663,174.7562202
+CC63049,Food Rescue Aoraki Trust,Ashburton,,255 Moore Street,,7700, ,-43.9078133,171.7483251
+CC63050,ZERO BLIND CHARITABLE TRUST,Te Anau,,10 Rodeo Drive,Te Anau 9600,9600,Rosedale,-45.4048394,167.7160861
+CC63054,Awhi Mai Cat Rescue,Auckland,,592 Mount Albert Road, ,1023,Royal Oak,-36.9089553,174.7623902
+CC63057,Give to Grow Ōtepoti Charitable Trust Board,Dunedin,,94 Stenhope Crescent, ,9018,Corstorphine,-45.9078493,170.4651043
+CC63060,Kiwis for the Treaty Incorporated,Christchurch,,7 Scarborough Fare, ,8081,Scarborough,-43.5759196,172.7711339
+CC63059,Te Kapahaka o Te Ahi a Tahurangi Incorporated,Lower Hutt,,2 Harrison Crescent,,5011,Avalon,-41.1988654,174.9406002
+CC63056,Makaurau Marae Reservation Trust,Auckland,,8 Ruaiti Road, ,2022,Mangere,-36.9834028,174.7649023
+CC63055,Restore Church Kawerau Trust,Kawerau,,243 River Road,,3127, ,-38.097136,176.7018881
+CC63058,Pakanae Marae,Opononi,,4 Waiotemarama Gorge Road,Opononi 0473,473, ,-35.4966853,173.4128105
+CC63053,Good Neighbours,Auckland,,Suite 4,326 Sunset Road,632,Windsor Park,-36.7468492,174.7391044
+CC63061,HAMILTON LAND SEARCH AND RESCUE INCORPORATED,Hamilton,,PO Box 4100, ,3247,Hamilton East,-37.791639,175.2941463
+CC63063,Abide Charitable Trust Board,Waiheke Island,,362 Cowes Bay Road,,1971,,-36.8087645,175.1639019
+CC63064,Te Rekereke Taiao Trust,Hamilton,,30 Edinburgh Road, ,3216,Hillcrest,-37.7938843,175.3132938
+CC63068,Ōhua Midwives,Christchurch,,50 Strathfield Avenue, ,8061,Dallington,-43.5111757,172.6688317
+CC63067,Glen Oroua Hall Society Incorporated,Glen Oroua,,523 Milner Road,Glen Oroua 4473,4473, ,-40.3317778,175.4099596
+CC63062,Diamond Charitable Trust Board,Rolleston,,92 Lady Isaac Drive,Rolleston 7615,7615,,-43.6147328,172.4079549
+CC63066,Whangamata Community Marae and Wellbeing Hub Trust,Whangamata,,PO Box 228,,3643,Whangamatā,-37.2040129,175.8738507
+CC63065,Moeangiangi Station Cadet Training Trust,Hastings,,205 Hastings Street South,Hastings 4122,4122,,-39.6455963,176.8444061
+CC63070,Te Moana A Toi Empire Charitable Trust,Papamoa,,8 Te Omiraka Lane, ,3118,Papamoa Beach,-37.7167546,176.3186129
+CC63075,Eden Christian Hostel Limited,Auckland,,9 Lovelock Avenue, ,1024,Mount Eden,-36.8772141,174.7598864
+CC63074,Te Kopaki Limited,Taumarunui,,121 Hakiaha Street,Taumarunui 3920,3920, ,-38.8832153,175.2656921
+CC63073,Helping Hands Foundation Charitable Trust,Te Puke,,347 No 2 Road,RD 2,3182, ,-37.84723,176.2901532
+CC63072,The Gathering Church Trust,Wanaka,,79 Riverbank Road,RD 2,9382,Wānaka,-44.7026037,169.1670382
+CC63071,ALL NATION CHRISTIAN FELLOWSHIP CANTERBURY NEW ZEALAND TRUST,Christchurch,,43 Greendale Avenue, ,8042,Avonhead,-43.5127539,172.5582194
+CC63069,Aparima Riverton Trails Trust,Riverton,,234 Rocks Highway,,9822,Riverton/aparima,-46.3799125,168.0318707
+CC63077,Universal Diversity Charitable Trust,Tauranga,,12 Ajax Place, ,3112,Welcome Bay,-37.7302039,176.182924
+CC63078,Light International Trust (NZ),Auckland,,24 Broadfield Street, ,614,Massey,-36.8385476,174.6084296
+CC63076,Tūhono Charitable Trust,Christchurch,,105 Inwoods Close, ,8083,Parklands,-43.4746805,172.7038331
+CC63079,Fiordland Arts Charitable Trust,Te Anau,,23 Town Centre,Te Anau 9600,9600, ,-45.4166021,167.7126372
+CC63080,NEW ZEALAND PHYSICIAN ASSOCIATE SOCIETY INCORPORATED,Tirau,,13 State Highway 5, ,3410,Tīrau,-37.9838851,175.7682144
+CC63081,Ukrainian Association of New Zealand (Southern Regions) Incorporated,Christchurch,,60 Eureka Street, ,8061,Aranui,-43.5090312,172.7069625
+CC63082,Activate Social Services Limited,Hamilton,,21 Ruakura Road, ,3216,Hamilton East,-37.7790604,175.2998736
+CC63083,Devondale Nurseries Limited,Christchurch,,329 Durham Street North, ,8013,Christchurch Central,-43.5271877,172.6333178
+CC63085,Ngā Tokorima a Hinemanuhiri Charitable Trust,Wairoa,,12 Locke Street, ,4108,Wairoa,-39.0342178,177.4219566
+CC63086,Awarua Rūnaka Limited,Bluff,,12 Bradshaw Street,,9814, ,-46.603484,168.3454472
+CC63084,Open Closed Doors,Auckland,,44 Parkdale Road,,1025,Mount Albert,-36.8746812,174.7154139
+CC63087,The Manawanui Project,Kerikeri,,743 Matawherohia Road, ,245,Kaeo,-35.1474145,173.7641537
+CC63089,Whānau Mercy Education Limited,Wellington,,15 Guildford Terrace, ,6011,Thorndon,-41.2758516,174.7751045
+CC63088,Kōrero ki Ōtautahi Charitable Trust,Christchurch,,36 Cowlishaw Street, ,8061,Avonside,-43.5231446,172.6634304
+CC63090,The Mercury Bay Medical Equipment Trust,Whitianga,,10 Oribi Place,,3510, ,-36.831424,175.6976427
+CC63095,iElevate,Auckland,,28A Shakespeare Road, ,620,Milford,-36.774304,174.7618508
+CC63091,Te Rangi-i-Taiawhiaotia Trust,Karikari Peninsula,,1545 Inland Road,,483, ,-34.869776,173.3787229
+CC63093,The Faulty Cat Fund,New Plymouth,,289B Carrington Street, ,4310,Vogeltown,-39.0786525,174.0820801
+CC63096,Colin John Parish - Estate,Auckland,,C/O Perpetual Guardian,"Level 23, 191 Queen Street",1010,,-36.8485007,174.7651644
+CC63094,Gospel Recovery Trust Board,Tauranga,,69 Balmedie Ridge, ,3110,Bethlehem,-37.6836954,176.1185789
+CC63092,Wild to Warmth Cat Rescue,Tauranga,,19B Osprey Drive, ,3112,Welcome Bay,-37.730757,176.1850469
+CC63097,New Zealand Open Charitable Trust,Auckland,,5 Huron Street, ,622,Takapuna,-36.7888234,174.7708904
+CC63100,PEST FREE WAITĀKERE RANGES ALLIANCE INCORPORATED,Auckland,,PO Box 15215,New Lynn,640,Henderson,-36.9089749,174.6775009
+CC63098,Manamoui Charitable Trust,Auckland,,98 Vodanovich Road, ,610,Te Atatu South,-36.86686,174.6384053
+CC63099,Te Ataarangi ki Te Waiariki Charitable Trust,Rotorua,,15 Garrick Place,,3015,Pukehangi,-38.1323406,176.2010625
+CC63102,Happy Rescue NZ,Auckland,,94B Union Road,,2014,Howick,-36.9048156,174.923204
+CC63101,Onstage Wanaka Society Incorporated,Wanaka,,11 Ribbonwood Avenue, ,9305,Albert Town,-44.6740651,169.1837754
+CC63103,North Waikato Performing Arts,Thames,,207 Waikiekie Road,,3500, ,-37.152876,175.5631979
+CC63104,Community Conservation Action Aotearoa,Whangarei,,999 Ngunguru Ford Road,RD 3,173,Kiripaka,-35.6434716,174.4897079
+CC63107,Mums That Homeschool Limited,Auckland,,27 Coniston Avenue, ,610,Te Atatu South,-36.8722608,174.6483722
+CC63105,Next Wave Future Leaders Charitable Trust,Prebbleton,,12 Logan Close,,7604,,-43.5908024,172.5156085
+CC63106,Rotoma No.1 Charitable Trust,Rangiora,,Flat 1,94 White Street,7400, ,-43.3010466,172.5850372
+CC63108,Basics Academy Charitable Trust,Auckland,,2/35 Sandringham Road, ,1041,Sandringham,-36.8740295,174.7418877
+CC63109,Pokaiwhenua Pokaimoana,Hastings,,6 Dundee Drive,,4120,Flaxmere,-39.6297927,176.7958588
+CC63112,Te Roroa Social Development Limited,Dargaville,,42 Hokianga Road,Dargaville 0310,310, ,-35.9404187,173.8666437
+CC63113,Nelson AI Sandbox Limited,Nelson,,322 Hardy Street,Nelson 7010,7010, ,-41.2747427,173.2893268
+CC63114,Ruangarehu K / Takipu Marae,Te Karaka,,2343 Matawai Road,Te Karaka 4022,4022, ,-38.4769396,177.8840667
+CC63110,Dunedin Punjabi Association ,Dunedin,,9 Douglas Street, ,9012,Saint Kilda,-45.9045088,170.506058
+CC63111,Front Steps Trust,Auckland,,19 Elam Street, ,1052,Parnell,-36.8616938,174.7897449
+CC63118,Kalapu Sia Ko Kafoa 'O Taoa Aotearoa,Auckland,,Flat 4,387 Massey Road,2024,Mangere East,-36.9669316,174.8238712
+CC63115,Masters Boxing New Zealand,Motueka,,13 Motueka River West Bank Road,RD 3,7198,Brooklyn,-41.0970192,172.9677654
+CC63116,Wairarapa Moana Charitable Trust,Taupo,,Level 1,14 Ruapehu Street,3330, ,-38.6897965,176.0711305
+CC63117,Jimmel Community Projects Ltd,Auckland,,12 Boyd Avenue, ,1061,Royal Oak,-36.9142809,174.7724556
+CC63119,ENLIGHTENED HEART CULTURE FOUNDATION,Auckland,,11 Umere Crescent, ,1051,Ellerslie,-36.8917716,174.8135915
+CC63121,Wairua Ataahua,Hamilton,,45 Mardon Road,,3214,Enderley,-37.7664484,175.293126
+CC63129,Southpoint Community Charitable Trust,Auckland,,Suite 4,9 Sharkey Street,2104,Manukau,-36.9889977,174.8784784
+CC63122,TE AAKA O ATUA MINISTRY (NZ),Christchurch,,39A Major Hornbrook Road, ,8081,Mount Pleasant,-43.5597832,172.7182113
+CC63124,Ngunguru Memorial Hall Trust,Whangārei,,1879 Ngunguru Road, ,173,Ngunguru,-35.6358101,174.4983424
+CC63131,Roskill Schools Community Trust,Auckland,,"Duncan Cotterill, Level 1, 37 Galway Street",,1010,Auckland Central,-36.8450132,174.7694315
+CC63130,Woolim Kids Choir Charitable Trust,Auckland,,39A Hatherlow Street, ,629,Glenfield,-36.7774428,174.7274483
+CC63125,New Zealand Air Ambulance Trust,Napier,,111 Main North Road, ,4110,Napier Airport,-39.4687557,176.8718867
+CC63127,The Southern Early Childhood Education Trust,Athol,,45 Saddle Road,Athol 9793,9793, ,-45.5037453,168.6876982
+CC63126,Aroha Seniors Group ,Auckland,,10 Vidiri Court, ,2019,Flat Bush,-36.9694091,174.9007347
+CC63128,Hosanna Myanmar Church,Porirua,,2 Driver Crescent, ,5024,Cannons Creek,-41.1408119,174.8677973
+CC63123,Te Puāwaitanga o Hanana Shannon Health & Wellbeing Centre Incorporated,Shannon,,66 Plimmer Terrace,,4821, ,-40.5467566,175.4117861
+CC63132,Bio-Robots against cancer Charitable Trust,Whangarei,,62 Kiteone Road,RD 4,174,Parua Bay,-35.7740424,174.4852422
+CC63135,Rainbow Warriors,Christchurch,,9A Lydbury Place, ,8083,Parklands,-43.4764157,172.6912979
+CC63134,Whangamatā Dune Protection Society Incorporated,Auckland,,C/o Buddle Findlay Solicitors,"HSBC Tower, Level 18, 188 Quay Street",1010, ,-36.8432416,174.765257
+CC63137,Autism Dads Support Group NZ,Auckland,,61 Cheriton Road, ,2014,Mellons Bay,-36.8861446,174.9292814
+CC63136,Bay Leaders Inc,Kawerau,,60 Onslow Street,,3127, ,-38.0876557,176.7031419
+CC63139,Ngāti Hine Limited,Bay of Islands,,2-4 Rayner Street, ,210,Kawakawa,-35.3789483,174.0636279
+CC63140,Transport Well New Zealand,Christchurch,,23 Islington Avenue, ,8042,Islington,-43.5422533,172.4933963
+CC63138,MASTERY SCHOOLS NEW ZEALAND LIMITED,Christchurch,,80 Hewitts Road,,8014,Merivale,-43.518449,172.6180002
+CC63144,Tauranga Mambas Basketball Charitable  Trust,Tauranga,,93 Phillips Drive,RD 3,3173,Oropi,-37.7555832,176.1354789
+CC63142,Te Whare Toi O Ōpōtiki Inc,Opotiki,,47 St John Street, ,3122,Ōpōtiki,-38.0114,177.2868777
+CC63143,AOPA NZ CHARITABLE TRUST,Temuka,,479 South Boundary Road,RD 25,7985,Waitohi,-44.1731421,171.1378925
+CC63146,Shadowhawk Equine,Rotorua,,72 Pohutukawa Drive, ,3010,Owhata,-38.123233,176.3017575
+CC63141,Child Nepal New Zealand (Child Nepal NZ / CNNZ),Oxford,,175 High Street,,7430, ,51.7521206,-1.2568181
+CC63145,The ASMA Foundation NZ Charitable Trust,Hamilton,,5 Cambrian Lane, ,3210,Flagstaff,-37.7338877,175.2567851
+CC63152,Fatu Lalaga Limited Partnership,Hamilton,,"Level 1, Citisie House",960 Victoria Street,3200,Whitiora,-37.7793863,175.2762487
+CC63148,TUMA MAU TAIAHA MAU RĀKAU,Lower Hutt,,Flat 2,132 Whites Line East,5010,Waiwhetu,-41.2241315,174.9186153
+CC63153,AUCKLAND PENTECOSTAL CHURCH - NEW ZEALAND,Auckland,,3 Kohia Terrace, ,1023,Epsom,-36.8850679,174.7692953
+CC63149,Kenakena School Parent Teacher Association,Paraparaumu,,12 Donovan Road, ,5032,Paraparaumu Beach,-40.8834339,174.9923446
+CC63150,Hope of Glory Church Trust,Auckland,,2 Waddon Place, ,2022,Mangere,-36.9713114,174.7994561
+CC63151,Te Whakaoranga Charitable Trust,Christchurch,,383 Durham Street North, ,8013,Christchurch Central,-43.5238515,172.6332561
+CC63147,Menzshed Kaitaia Incorporated,Cable Bay,,6 Seaview Road,,420,,-34.9925816,173.5018308
+CC63156,KHIDMA NEW ZEALAND,Auckland,,Flat 2,11 Charles Dickens Drive,2014,Mellons Bay,-36.8828333,174.9231533
+CC63163,The Third Place Community Trust,Silverdale,,1A Duck Creek Road, ,993,Stillwater,-36.6392986,174.7203005
+CC63160,Islands for the Future of Humanity,Reefton,,14 Broadway,,7830, ,-42.1195172,171.8635779
+CC63158,TE TUARA TRUST,Bombay,,1832 Great South Road,RD 1,2675, ,18.9581934,72.8320729
+CC63154,Safura International Learning Academy,Auckland,,27A Forbes Road, ,2024,Favona,-36.9506712,174.8117203
+CC63155,Te Ara Tīrama Charitable Trust,Alexandra,,"Community House, 10-14 Centennial Ave",,9320, ,,
+CC63162,The Methodist Church Of New Zealand Te Haahi Weteriana O Aotearoa Manurewa Samoan Parish (9550),Auckland,,32 Friedlanders Road, ,2102,Manurewa,-37.030376,174.8862577
+CC63164,Niue Community Christchurch | Matakau Niue Kalasiosi Incorporated,Christchurch,,20 Rutherglen Avenue, ,8041,Ilam,-43.5193294,172.5692795
+CC63159,Dunstan Hospital Foundation Charitable Trust,Wānaka,,17 Dunmore Street,,9305, ,-44.6960304,169.1347499
+CC63166,Hidayah Youth Inc,Auckland,,40 Lewis Street, ,600,Blockhouse Bay,-36.9249394,174.7075334
+CC63161,Melville Hall Charitable Trust,Ohaupo,,494 Rukuhia Road,RD 2,3882,Rukuhia,-37.877097,175.2596801
+CC63157,Ia Malamalama Agape Bible College Wellington,Lower Hutt,,142A Kamahi Street,,5019,Stokes Valley,-41.1898523,174.9910394
+CC63165,Janet Hadfield Charitable Trust,Blenheim,,4 Richmond Street,,7201,,-41.5124215,173.9509308
+CC63168,South Auckland Milad and Ratib Group Trust,Auckland,,12 Wai Iti Place, ,2103,Clendon Park,-37.0335017,174.8597756
+CC63169,Quorum Sense,Mount Somers,,982 Tramway Road,,7771, ,-43.7096588,171.4188685
+CC63167,Bush Aquatic Trust Te kauhaunga O Rongomai,Pahiatua,,143 Main Street,,4910, ,-40.4537604,175.8409934
+CC63170,Te Awahou Foxton Waka Ama,Foxton,,2A Reeve Street,,4814, ,-40.480082,175.2850619
+CC63173,Te Whānau o Hakatere Charitable Trust,Ashburton,,439 Rakaia Highway, ,7772,Fairton,-43.8638756,171.8067371
+CC63172,Frank Worsley Antarctic Research Library Trust,Christchurch ,,"Chairman's Lounge, Level 1,  Old Municipal Chambers",Corner Worcester Boulevard & Oxford Terrace,8013,Christchurch Central,44.0775712,-70.5500592
+CC63171,Lake Taupo Volunteer Fire Brigade,Taupō,,Unit 3,17 Mataī Street,3378,Tauhara,-38.6870406,176.1034924
+CC63174,Divya Shakti Charitable Trust,Auckland,,9 Espada Place, ,2019,Clover Park,-36.9866002,174.8924155
+CC63177,Mental Hunts Charitable Trust,Wānaka,,13 Sir Tim Wallis Drive,Wānaka 9305,9305, ,-44.7039772,169.152337
+CC63176,LOLO A HALAEVALU AOTEAROA CHARITY TRUST,Auckland,,158 Favona Road, ,2024,Favona,-36.9485428,174.8147165
+CC63175,Hibiscus Bible Church,Silverdale,,346 Pine Valley Road,RD 2,992,Dairy Flat,-36.628517,174.6328722
+CC63178,The Security Noticeboard,Paraparaumu,,7 Wedgewood Grove, ,5032,Raumati Beach,-40.9194543,174.9946929
+CC63180,Horses R Us NZ Charitable Trust,Atiamuri,,251 Pokuru Road,RD 1,3078,Tirohanga,-38.4674837,175.8870977
+CC63181,The Cat Haven,,,,,,,,
+CC63183,Bowls Auckland Development Foundation Trust,Auckland,,17 Stokes Road, ,1024,Mount Eden,-36.8824667,174.7648434
+CC63182,Byte-sized Learning Trust,Auckland,,81 Caribbean Drive, ,632,Unsworth Heights,-36.7599143,174.7205306
+CC63179,Vale of Kawerau Pipe Band Incorporated,Kawerau,,22 Grey Street,Kawerau 3127,3127, ,-38.0879335,176.7063347
+CC63187,Migrant Learning Hub,Hamilton,,3B Naylor Street, ,3216,Hamilton East,-37.7997285,175.2934683
+CC63185,Peach Boxing Foundation Inc,Auckland,,71 Coulter Road, ,614,Henderson Valley,-36.8906053,174.5825789
+CC63184,Mana Ahuriri Charitable Holdings Limited,Napier,,170A Waghorne Street,,4110,Ahuriri,-39.4788954,176.9084128
+CC63186,Volunteer Great Lake Taupo,Taupō,,100 Kaimanawa Street,,3330, ,-38.6833124,176.0787547
+CC63188,Pursuit Community Trust,Hastings,,1020 Maraekakaho Road, ,4120,Raureka,-39.6385968,176.8181312
+CC63189,FONO PASEFIKA LEVIN,Levin,,41 Quinn Road,,5510, ,-40.6260189,175.2950234
+CC63191,MUSLIM MENTAL HEALTH AOTEAROA LIMITED ,Wellington,,7 Naughton Terrace, ,6022,Kilbirnie,-41.3169445,174.7924872
+CC63197,Southern SAATS Limited,Dunedin,,70 Macandrew Road, ,9012,South Dunedin,-45.8965946,170.4998562
+CC63201,Watchman New Zealand,Hamilton,,10 High Street, ,3204,Frankton,-37.7894981,175.2648521
+CC63194,WAITANGI CULTURAL SOCIETY INCORPORATED,Whangarei,,20 Charles Street, ,112,Kamo,-35.6777208,174.3060727
+CC63195,Inspired Faith Fellowship Church Timaru,Timaru,,35 Regent Street, ,7910,West End,-44.3968398,171.2324167
+CC63192,Awhi Whanau Tauranga Moana Charitable Trust,Tauranga,,50 Tutauanui crescent, ,3112,Maungatapu,-37.7234854,176.1695132
+CC63193,Cambridge Kids Playgroup Incorporated,Cambridge,,6 Carnation Court,,3434, ,-37.8749029,175.4780631
+CC63199,Friends of James Cook School,Marton,,49 Mill Street,,4710,,-40.0781132,175.373391
+CC63196,Adaptive Resilience Solutions,Wakefield,,4 Totara View Road,RD 1,7095,,-41.421734,173.0302845
+CC63200,HB Jammers Inc,Napier,,28 Kotuku Place, ,4112,Taradale,-39.5423927,176.8391047
+CC63202,The Luna Foundation Charitable Trust,Hastings,,"Level 1,",17 Napier Road,4130,Havelock North,-39.6687936,176.8783038
+CC63206,Maimaru E2 Maori Reservation,Kaitaia,,6083 State Highway 10,RD 3,483,Awanui,-35.0459722,173.2721336
+CC63207,Saint Matthews Taita Limited,Wellington,,18 Eccleston Hill, ,6011,Thorndon,-41.2758234,174.7768647
+CC63205,Little Green Bird Conservation Trust,Waiuku,,36 Owens Road,,2123, ,-37.2444343,174.7276587
+CC63204,Hutt Valley Community Choir Incorporated,Lower Hutt,,23 Wairere Road, ,5010,Belmont,-41.1962385,174.9169892
+CC63203,Napier/Ahuriri Homeless Shelter Society Inc,Napier,,21 Browning Street, ,4110,Napier South,-39.4883849,176.9170173
+CC63210,HeArt by Aroha,Auckland,,Flat 2,3 Brunton Place,629,Glenfield,-36.7915708,174.7112753
+CC63211,Waitakaruru Arboretum Stewardship Foundation,Hamilton,,5 Clements Crescent, ,3210,Queenwood,-37.7467113,175.2643849
+CC63209,Whakamana Ora Trust,Auckland,,60 Finlayson Avenue, ,2103,Clendon Park,-37.023284,174.8575673
+CC63212,Light of All Nations Ministry Palmerston North,Palmerston North,,59 Vogel Street, ,4414,Roslyn,-40.331719,175.6313181
+CC63208,TAMIL ASSOCIATION OF NEW ZEALAND INCORPORATED,Auckland,,Flat 2,12 George Street,2024,Mangere East,-36.9723423,174.8206594
+CC63215,MDST (Ministry Development & Sustainable Trust),Christchurch,,PO Box 12141,Beckenham,8242,Sydenham,-43.5598179,172.6396401
+CC63213,Wainui Ngahere Fund,Takaka,,1202 Abel Tasman Drive,RD 1,7183,Ligar Bay,-40.8188246,172.9157396
+CC63214,NEW ZEALAND EMPATHETIC TRUST,Hamilton,,43 Te Anau Place, ,3206,Glenview,-37.8209034,175.2944393
+CC63216,Te Whatahuru Foundation,Tolaga Bay,,34 Monkhouse Street,,4077,,-38.3741875,178.2943687
+CC63217,Ngati Tūrangitukua Holdings Limited,Tūrangi,,130 Atirau Road,,3334, ,-38.9969649,175.8031966
+CC63218,The Projects For Good Charitable Trust,Waikanae,,10 Ferndale Drive,,5036,,-40.8672268,175.0494448
+CC63219,Belfast Residents Incorporated,Christchurch,,710 Main North Road,,8051,Belfast,-43.4527799,172.6283565
+CC63227,Bread Project Trust,Auckland,,Floor 1,5 Crummer Road,1021,Grey Lynn,-36.8591469,174.7499103
+CC63223,Neufeld Aotearoa Charitable Trust,Auckland,,9 King Edward Avenue, ,1023,Epsom,-36.8906262,174.773311
+CC63226,NZ Rescue Charitable Trust,Auckland,,6A Rambler Crescent, ,626,Beach Haven,-36.7900322,174.6818461
+CC63221,The MacCormac Trust,Wellington,,120 Featherston Street, ,6011,Wellington Central,-41.2821507,174.7775057
+CC63224,LOVEU,Silverdale,,3 Sunview Street,,932,,-36.6038593,174.6773119
+CC63220,Queenstown Ice Hockey Club Incorporated,Queenstown,,29 Park Street,,9300,,-45.0375183,168.6616759
+CC63225,Whakarae Pā Trust,Nukuhou,,1501 Matahi Valley Road, ,3196,Matahi,-38.2835924,177.114526
+CC63222,LIBERTON CHRISTIAN SCHOOL PARENTS AND FRIENDS ASSOCIATION INC,Dunedin,,5 Hillary Street, ,9010,Liberton,-45.8474163,170.5128187
+CC63228,He Ara Putanga Charitable Trust,Auckland,,28 Feeny Crescent, ,2013,East Tamaki,-36.9437074,174.9059437
+CC63229,Good Care Community Trust,Auckland,,170B Edmonton Road, ,610,Te Atatu South,-36.867112,174.6413073
+CC63230,International Association for Public Participation Australasia Limited,Auckland,,HLB Mann-Judd,"Level 6, 57 Symonds Street",1052,Grafton,-36.8565309,174.7650347
+CC63231,Centre for Workplace Inclusion,Auckland,,90 Symonds Street,Penrose,1010,Grafton,-36.8569362,174.7655645
+CC63233,Shaping our Future Charitable Trust,Queenstown,,10 Tewa Street,,9300,Frankton,-45.0116202,168.7457406
+CC63232,Keratoconus Limited,Rotorua,,1350 Hinemoa Street,,3010, ,-38.1382225,176.2454307
+CC63235,Te Hapori Charitable Trust,Auckland,,"C/o Ākarana Chambers, Level 11",59 High Street,1010,Auckland Central,-36.8487712,174.7661283
+CC63237,FRIENDS OF A’DEANE’S BUSH INCORPORATED,Waipawa,,707 Tod Road,RD 1,4271,Ōtāne,-39.9562936,176.6684874
+CC63501,DARUL EIMAN EPSOM TRUST,Auckland,,123 Manukau Road, ,1023,Epsom,-36.8791947,174.7760694
+CC63238,THE GLORIOUS CHURCH NEW ZEALAND,Wellington,,198A Helston Road, ,6037,Paparangi,-41.2179913,174.8166776
+CC63236,Devonport Domain Sportshub Charitable Trust,Auckland,,29 Vauxhall Road,,624,Devonport,-36.8259161,174.8028824
+CC63239,Roslyn Bowling Club Incorporated,Dunedin,,6 Gamma Street, ,9011,Belleknowes,-45.8705138,170.4799761
+CC63242,Rangihaute Land Trust,Chatham Islands,,PO Box 262,Waitangi,8942, ,-43.9514863,-176.5605551
+CC63243,Te Rākau Āwhina - The Helping Tree Charitable Trust,Invercargill,,257 Herbert Street,,9810,Windsor,-46.3950235,168.3645482
+CC63241,Hamilton Golf Club Incorporated,Hamilton,,64 St Andrews Terrace,,3200,Saint Andrews,-37.7517116,175.2581464
+CC63244,Corstorphine Community Hub,Dunedin,,235 Middleton Road, ,9012,Corstorphine,-45.9094195,170.4711488
+CC63240,Auckland Choral Ensemble Charitable Trust,Auckland,,5 Bolina Crescent, ,2010,Pakuranga,-36.9161576,174.8702287
+CC63250,SHIP (Stop Human Trafficking in the Pacific),Porirua,,7 Shearwater Lane,,5024,Whitby,-41.1094873,174.898083
+CC63251,Tatai Whakapapa Trust,Auckland,,114 Triangle Road,,614,Massey,-36.8364386,174.6152721
+CC63246,Te Hokinga ki to Mauri Charitable Trust,Taupō,,129 Spa Road,,3330, ,-38.6833031,176.0783591
+CC63245,TE HAU KAINGA ME NGA MANA WHENUA O POKENO,Pokeno,,26 Pokeno Road, ,2402,Pōkeno,-37.243345,175.0180979
+CC63248,Manchester Unity Charitable Foundation,Wellington,,117 Lambton Quay, ,6011,Wellington Central,-41.2808455,174.7762338
+CC63247,RAWA - Readers and Writers Akaroa,Akaroa,,43 Hempleman Drive,,7520, ,-43.8166953,172.9535147
+CC63252,The Gordon Anderson Scholarships,Wellington,,Private Bag 5902,,6140,Pipitea,-41.2795401,174.7792417
+CC63253,Te Kupenga a Tamanohorakau rāua ko Potamia Charitable Trust,Auckland,,15 Glen Osborne Terrace, ,2019,Flat Bush,-36.9678262,174.9039727
+CC63249,Peggy Purl Manawatu,Palmerston North,,24B Mahoe Avenue,,4410,Takaro,-40.3523329,175.5961779
+CC63254,Tangatake Charitable Trust,Waikanae,,64 Winara Avenue,,5036, ,-40.8740101,175.0729025
+CC63257,Women Together Aotearoa Limited,Auckland,,Flat 4,137 Tamaki Drive,1071,Mission Bay,-36.8477711,174.8355282
+CC63255,Christchurch Education Trust,Wellington,,"Level 5, Chartered Accountants House",50 Customhouse Quay,6011,Wellington Central,-41.2840195,174.77739
+CC63256,Christchurch Education Limited,Christchurch,,148 Victoria Street,,8013,Christchurch Central,-43.521426,172.6287236
+CC63258,ChristWay Shekinah Church Charitable Trust,Hamilton,,11 Cabourne Drive, ,3206,Glenview,-37.8245637,175.2979686
+CC63265,Biking Good Charitable Trust,Porirua,,14 Latitude Close, ,5024,Whitby,-41.120744,174.8941048
+CC63263,Wāhine Outdoors,Wakefield,,22 Totara Street, ,7096,Tapawera,-41.3856581,172.8244804
+CC63262,EVANGELION CHARITABLE TRUST,Auckland,,Flat 8,24 Eastglen Road,602,Glen Eden,-36.9149368,174.6611805
+CC63261,Before16 Charitable Trust,Auckland,,11 Britomart Place, ,1010,Auckland Central,-36.8448994,174.7704133
+CC63268,Eden Meadows Foundation Trust Board,Hamilton,,73 St James Drive, ,3210,Huntington,-37.736991,175.2828761
+CC63267,Pohutukawa Coast Arts Hub Charitable Trust,Auckland,,62 Second View Avenue, ,2018,Beachlands,-36.8818695,174.995222
+CC63266,Tū Māia Anake Trust,Takanini,,290 Great South Road,,2112, ,-37.0530486,174.9323273
+CC63260,Waingongoro Awa Charitable Trust,Waipukurau,,6 Kitchener Street,,4200,,-39.9958006,176.5525516
+CC63259,Te Ra Fundraising Group Incorporated,Paraparaumu,,89 Poplar Avenue,,5032,Raumati South,-40.9373609,174.9850513
+CC63264,GUMBOOTS BRASS AND WIND ENSEMBLE INCORPORATED,Taihape,,438 Rongoiti Road,RD 6,4796, ,-39.6765961,175.6932716
+CC63270,The HASANZ Miller Foundation,Wellington,,"Level 5, 50 Customhouse Quay", ,6011,Wellington Central,-41.2840195,174.77739
+CC63269,Kākano Hapori Trust,Rotorua,,C/- 100 Malfroy Road, ,3010,Victoria,-38.1448845,176.2424416
+CC63271,Hawkes Bay Garden Affair Charitable Trust,Havelock North,,2 Kirkpatrick Place,,4130, ,-39.6622484,176.8950714
+CC63272,Transformational Charitable Trust,Christchurch,,35A Carnarvon Street, ,8062,Linwood,-43.5271224,172.6779216
+CC63273,SIMPLY FOUNDATION LIMITED,Auckland,,11 Kestrel Place, ,1072,Wai O Taiki Bay,-36.8769715,174.8721743
+CC63274,Whare Whakaute Charitable Trust,Auckland,,1E Deering Place, ,2025,Papatoetoe,-36.9756493,174.8376542
+CC63275,Ka Uruora Te Matau-a-Māui,Christchurch,,Unit 4,71 Gloucester Street,8013,Christchurch Central,-43.5296397,172.6323182
+CC63276,Te Arawa Wallaby Kahui Charitable Trust,Rotorua,,11 Hamiora Place, ,3010,Ngapuna,-38.1484473,176.2706177
+CC63278,West Taiari Environmental Care Trust,Outram,,1341 Lee Stream-Outram Road,RD 2,9074,Woodside,-45.8411095,170.1912973
+CC63277,Church of Purpose Wellsford Charitable Trust,Wellsford,,18 Wiki Brown Road,RD 5,975,Oruawharo,-36.2598962,174.416278
+CC63281,Manaaki Aroha Mo Nga Iwi O Te Motu,Tokoroa,,121 Bridge Street,Tokoroa 3420,3420, ,-38.2200495,175.8643834
+CC63280,Ngāti Pārau Hapū Trust ,Napier,,7 Pitaka Lane,RD 3,4183,Waiohiki,-39.5541845,176.8386883
+CC63282,Tatou Collective Limited,Auckland,,15 Earl Richardson Avenue, ,2104,Wiri,-37.0025977,174.8753946
+CC63279,Barrys Food Bank Charitable Trust,Temuka,,124 Beeby Road,RD 26,7986,Orari,-44.154068,171.2737376
+CC63283,The Avenue Village NZ Trust,Christchurch,,5 Coprosma Road, ,8025,Wigram,-43.5611668,172.5420372
+CC63289,Nexus Initiative Trust ,Auckland,,55 Maple Street, ,1026,Avondale,-36.8909572,174.6781868
+CC63288,CCS DISABILITY ACTION SERVICES LIMITED,Wellington,,"Level 3, 94 Dixon Street", ,6011,Te Aro,-41.291026,174.7747526
+CC63290,Lighthouse Southland Charitable Trust,Invercargill,,59 Gala Street, ,9810,Avenal,-46.4066653,168.350116
+CC63287,TE KAPAHAKA O WAIOWEKA CHARITABLE TRUST,Opotiki,,33 Clark Cross Road,RD 1,3197,Ōtara,-38.0371865,177.3055253
+CC63286,The Potters House Christian Church Te Awamutu,Te Awamutu,,269 Williams Street,,3800,,-38.0087105,175.3210648
+CC63285,Mana Motuhake Kaumatua Ki Raetihi Charitable Trust,Raetihi,,12 George Street,,4632, ,-39.4329622,175.2761054
+CC63291,Māmā Neke Maunga,Kaikohe,,5395 State Highway 12,,472, ,-35.3935389,173.8322961
+CC63292,The Law of Life Charitable Trust,Auckland,,26 Kingsland Avenue, ,1021,Kingsland,-36.870983,174.7407568
+CC63293,Massage After Miscarriage Aotearoa (MAMA),Tauranga,,1202 Omanawa Road,RD 1,3171,Omanawa,-37.8597975,176.0791973
+CC63294,Klesia Discipleship Network Trust,Auckland,,30 Crossland Place,,2018,Maraetai,-36.8815417,175.0295265
+CC63296,CIEE New Zealand Limited,Auckland,,"Level 27, 88 Shortland Street", ,1141,Auckland Central,-36.8466256,174.7698624
+CC63297,Blackball Recreation Reserve Trust,Blackball,,19 Hart Street,,7804, ,-42.364774,171.4127306
+CC63295,Hawera Lions Club Charitable Trust,Hawera,,365 Ketemarae Road,RD 15,4675,Normanby,-39.554653,174.2547932
+CC63298,Avian Behaviour and Welfare Advocacy Trust,Wyndham,,1410 Edendale Woodlands Highway,RD 3,9893,Edendale,-46.3126673,168.7031473
+CC63304,Pacific Island Law Students Association Incorporated,Auckland,,1-11 Short Street, ,1010,Auckland Central,-36.8474659,174.7718149
+CC63303,The Step Together Project,Auckland,,Flat 1,1471 Great North Road,1026,Waterview,-36.8792323,174.7021083
+CC63302,Ka Taki Te Umere Limited,Dunedin,,44 York Place,,9016,,-45.8795455,170.5005957
+CC63299,Family Potentials Trust,Auckland,,5 Honeysuckle Lane, ,630,Mairangi Bay,-36.7367262,174.7417568
+CC63305,So Fresh,Christchurch,,66 Baker Street,,8083,New Brighton,-43.500628,172.715599
+CC63301,Encounter Breakthrough Church Trust,Auckland,,4 Glann Lane, ,2019,Flat Bush,-36.9854023,174.9154484
+CC63300,City of God Wellington Tongan AOG Trust Board,Lower Hutt,,12 Lowry Crescent, ,5019,Stokes Valley,-41.1712651,174.9913022
+CC63306,VOICE OF AROHA,Porirua,,27 Hukatai Street, ,5022,Elsdon,-41.1302365,174.8298369
+CC63307,Parallel Care Limited,Auckland,,2 Belinda Avenue, ,2023,Flat Bush,-36.9733192,174.8987556
+CC63308,Biology Educators of Aotearoa New Zealand Incorporated,Nelson,,63 Golf Road,,7011,Tahunanui,-41.2865609,173.2389533
+CC63313,Pōneke Ngeru Rescue Trust,Wellington,,Flat 1,424 Adelaide Road,6023,Berhampore,-41.3182602,174.7751761
+CC63312,Ōtākaro Living Laboratory Trust,Christchurch,,92 Palatine Terrace,,8022,Saint Martins,-43.5595423,172.6484075
+CC63311,Tāhono Trust,Auckland,,"Level 5, 30 Gaunt Street", ,1010,Auckland Central,-36.8447553,174.7555102
+CC63310,AOTEAROA NEW ZEALAND STUDENT PARAMEDICS ASSOCIATION MANATŌPŪ,Auckland,,46 Stott Avenue, ,626,Birkdale,-36.8020314,174.6995836
+CC63316,Ruakaka and One Tree Point Community CCTV Project Inc,One Tree Point,,53 One Tree Point Road,,118, ,-35.8332042,174.4680649
+CC63318,TAAL New Zealand,Auckland,,Flat 5G,10 Crown Lynn Place,600,New Lynn,-36.9121683,174.6871404
+CC63322,Aroha Gut Health Trust ,Auckland,,"Level 2, 636 Great South Road", ,1051,Ellerslie,-36.8998407,174.8052681
+CC63314,Hawkes Bay Hindu Cultural Centre & Temple Incorporated,Hastings,,247 Napier Road,RD 10,4180,Havelock North,-39.6500721,176.8883219
+CC63319,Ara O Te Kinga Trust,Dobson,,30 Aratika Drive,RD 1,7872,Arnold Valley,-42.5505941,171.4309276
+CC63315,TE PĀRIHA O RAETIHI MANATŌPŪ,Raetihi,,48 Raetihi Ohakune Road,Raetihi 4632,4632, ,-39.4291222,175.2877966
+CC63320,KAPITI CATS - FOUND MINX,Paraparaumu,,14 Awatea Avenue,,5032, ,-40.9055963,175.014669
+CC63317,Kingdom First Emmanuel,Auckland,,87 Te Irirangi Drive,,2019,Clover Park,-36.9836373,174.891357
+CC63321,St John's Arrowtown Presbyterian Church,Arrowtown,,26 Berkshire Street,,9302, ,-44.9405465,168.82867
+CC63335,Land Information Freehold Education Charitable Trust,Wellington,,57B Todman Street,,6021,Brooklyn,-41.3072238,174.7608362
+CC63332,Abune Aregawi Tigrayan Orthodox Tewahedo Church Incorporated ,Christchurch,,321A Wairakei Road, ,8053,Burnside,-43.4980145,172.5821002
+CC63327,DBS ChCh Limited,Christchurch,,15 Bishopdale Court,,8053,Bishopdale,-43.4899029,172.5865106
+CC63331,Assembly of God Church of Samoa in New Zealand - Tawa,Porirua,,53 Fantame Street, ,5024,Cannons Creek,-41.1329331,174.8719346
+CC63337,Assembly of God Church of Samoa in New Zealand - Napier,Napier,,4 Chambers Street, ,4110,Napier South,-39.5088804,176.9145971
+CC63330,Revival Nations Church,Auckland,,Unit 75,St Claire Village,610,Te Atatu South,-36.8650484,174.6471244
+CC63326,AUCKLAND SCHOOLS DEBATING CHARITABLE TRUST BOARD,Auckland,,Flat 2,46 Rawhiti Road,1061,One Tree Hill,-36.9077346,174.794884
+CC63328,itty bitty kitty committee,Raetihi,,222 Matapuna Road,RD 6,4696,Horopito,-39.3367872,175.3955197
+CC63323,Darfield Food Bank Charitable Trust,Darfield,,Unit 1,342 Bangor Road,7571, ,-43.4812324,172.0660167
+CC63333,Active Apirana,Auckland,,3 Truman Street,,1072,Saint Johns,-36.8737484,174.835731
+CC63334,Te Whare Roopu o Oterepo Waltham Community Cottage Trust,Christchurch,,201 Hastings Street East, ,8023,Waltham,-43.5491605,172.6511969
+CC63329,Migrant Neuro-Inclusion Network,Auckland,,Flat 2,71 Blockhouse Bay Road,1026,Avondale,-36.8917872,174.7005468
+CC63325,ACK Hibiscus Coast Congregation Trust,Auckland,,3 Bezar Place,,2016,Flat Bush,-36.9572396,174.9161963
+CC63324,ACK Taupo Congregation Trust,Auckland,,3 Bezar Place,,2016,Flat Bush,-36.9572396,174.9161963
+CC63336,The Jim Stevenson Performing Arts Trust,Auckland,,26A Niccol Avenue, ,624,Narrow Neck,-36.8146211,174.7967577
+CC63339,YOUKNOW CHARITABLE TRUST,Auckland,,8 Haultain Street,,1024,Mount Eden,-36.8692116,174.7553459
+CC63340,Raising Parents,Lower Hutt,,85 Holborn Drive, ,5019,Stokes Valley,-41.1641242,174.9782214
+CC63338,Ngā Ara Tūhono Trust,Ohakune,,54 Clyde Street,,4625, ,-39.4181964,175.3983322
+CC63341,"Jesus Reigns Ministries (New Zealand), Inc",Auckland,,Flat 1,17A Rowan Road,1023,Epsom,-36.9068633,174.7632882
+CC63342,Paddler Potential Inc,Christchurch,,6 Pannell Avenue, ,8061,Wainoni,-43.522827,172.6823843
+CC63343,LAGI-MAAMA CHARITABLE TRUST BOARD,Auckland,,20 Jessel Street, ,1021,Grey Lynn,-36.8557594,174.7365074
+CC63347,Tremains NZ Community Trust,Napier,,202 Hastings Street, ,4110,Napier South,-39.4916422,176.918582
+CC63349,Women on The Frontlines New Zealand,Darfield,,8 Rosalind Avenue,,7510, ,-43.4973998,172.1149965
+CC63345,Tere Bissell Foundation,Palmerston North,,41 Clausen Street, ,4412,Takaro,-40.3526308,175.5945427
+CC63348,TE PĀ FOUNDATION ,Lyttelton,,11A Korora Tahi Road,RD 1,8971,Te Rāpaki-O-Te Rakiwhakaputa,-43.6060007,172.682025
+CC63346,The Access to Adventure Charitable Trust,Whangārei,,35 Robert Street,,110, ,-35.7243431,174.3219142
+CC63344,SuperGrans SuperSkills Otautahi Charitable Trust,Kaiapoi,,6 Magnolia Boulevard,,7630,,-43.3712512,172.6654026
+CC63351,Kowai Pass Reserve Trust,Springfield,,195 Kowai Road,,7681,,-43.3160183,171.9270419
+CC63350,Whakatipu Hangarau Trust,Queenstown,,111 North Ridge Road,RD 1,9371,Dalefield,-44.9693901,168.7124008
+CC63352,Neighbourhood Support Western Bay of Plenty,Tauranga,,1 Margaret Road, ,3110,Bellevue,-37.6781137,176.1254989
+CC63353,Birkenhead Heritage Society Incorporated,Auckland,,44 Mahara Avenue, ,626,Birkenhead,-36.8085285,174.7211176
+CC63354,SAMER+ COLLECTIVE TRUST,Auckland,,101 Church Street, ,1061,Onehunga,-36.9232311,174.7861405
+CC63355,DUNEDIN INDOOR SKATEPARK LIMITED,Dunedin,,26 Somerville Street,,9013,Andersons Bay,-45.8934816,170.5289078
+CC63358,Sanctuary Ekklesia,Auckland,,10 Dallow Place, ,612,Henderson,-36.8891394,174.6419736
+CC63356,Flawless Paws Charitable Trust,Hamilton,,28 Insoll Avenue, ,3214,Enderley,-37.7638744,175.2919527
+CC63359,World of Wellbeing Incorporated,Tokoroa,,33 Walnut Place,,3420, ,-38.2299053,175.8575035
+CC63360,Kohimarama Early Childhood Learning Centre Charitable Trust,Auckland,,203 Kohimarama Road, ,1071,Kohimarama,-36.8619845,174.8368534
+CC63363,Wild Game Recovery Charitable Trust ,Nelson,,197 Bridge Street,,7010, ,-41.2724322,173.2892117
+CC63364,On The Way International,Lower Hutt,,32 Ava Street, ,5012,Petone,-41.2229332,174.8898428
+CC63361,Manako Charitable Trust,Auckland,,24 Kingsley Street, ,1022,Westmere,-36.8536538,174.7269385
+CC63362,Samoa Atia'e Charitable Trust,Hamilton,,295 Clarkin Road, ,3214,Fairfield,-37.7626656,175.2868691
+CC63369,Prospire Community Trust,Christchurch,,18 League Lane,,8011,Phillipstown,-43.5397939,172.6600435
+CC63366,Invictus Boxing Charitable Trust,Palmerston North,,104 King Street,,4410,,-40.3533365,175.612703
+CC63365,HARVEST OF REVIVAL MINISTRY TRUST,Auckland,,145 Hill Road, ,2105,Manurewa,-37.0127178,174.9125088
+CC63368,Aotearoa Lifecourse Fund,Auckland,,4 Fifeshire Street, ,622,Belmont,-36.8005635,174.7852231
+CC63367,Paererewā Charitable Trust,Auckland,,143 Quay Street, ,1010,Auckland Central,-36.8396679,174.7654847
+CC63374,Kaipara Tamariki Collective Incorporated,Dargaville,,844 Pouto Road,RD 1,371,Te Kōpuru,-36.025326,173.9120042
+CC63375,DUNEDIN MEDICAL STUDENTS' ASSOCIATION FOR ALM (DMSAA) INCORPORATED,Dunedin,,279 Great King Street, ,9016,North Dunedin,-45.8680929,170.5091113
+CC63370,Japan Cultural Trust,Auckland,,PO Box 300334, ,752,Albany,-36.7269389,174.697984
+CC63373,Auckland International Football Club Incorporated,Auckland,,Level 3/435 Khyber Pass Road,Level 3,1023,Newmarket,-36.8673006,174.7756084
+CC63372,The Skills Group Trust,Auckland,,"Freepost 5164, PO Box 24-469",Royal Oak,1345,Onehunga,-36.91171,174.77503
+CC63371,Zion Assemblies of God,Palmerston North,,29 Rennie Avenue,,4414,Milson,-40.3343534,175.6041092
+CC63381,The Mobility Dogs Investment Trust,Auckland,,Unit C,13-15 Collard Place,610,Henderson,-36.8537683,174.634258
+CC63380,Da Xiang Guo Si Temple,Auckland,,42 Southern Cross Road,,1071,Kohimarama,-36.8593246,174.8431699
+CC63382,WanderSearch Wairarapa Charitable Trust,Masterton,,213 West Bush Road,RD 8,5888,Upper Plain,-40.9462712,175.6028026
+CC63379,HE TOKI MĀORI TRADE TRAINING CHARITABLE TRUST,Christchurch,,15 Show Place,,8024,Addington,-43.5428186,172.6021623
+CC63376,Ghost Diving New Zealand Charitable Trust Board,Wellington,,62 Oriel Avenue, ,5028,Tawa,-41.1802963,174.8177717
+CC63377,SHALOM CHRISTIAN CHURCH,Auckland,,26-38 Corban Avenue, ,612,Henderson,-36.8928953,174.628009
+CC63378,Langima'a Oceania Trust,Auckland,,14 Hope Place, ,2023,Otara,-36.952114,174.8714041
+CC63385,Pasifika Funders Network ,Auckland,,Flat 3,466 Ellerslie-Panmure Highway,1060,Mount Wellington,-36.8969053,174.8436412
+CC63384,The 1905 Foundation Trust,Christchurch,,77 Soleares Avenue, ,8081,Mount Pleasant,-43.5632136,172.7208257
+CC63383,Medi-Flight Taranaki Charitable Trust,New Plymouth,,136 Powderham Street,,4310,,-39.0602867,174.068234
+CC63386,Va'a South Paddlers Incorporated,Christchurch,,6 Pannell Avenue, ,8061,Wainoni,-43.522827,172.6823843
+CC63387,Waipuna Hospice,Tauranga,,43 Te Puna Station Road,RD 6,3176,Te Puna,-37.6964657,176.0907249
+CC63389,METHODIST CHURCH OF SAMOA (TIMARU PARISH) IN NEW ZEALAND CHARITABLE TRUST,Timaru,,PO Box 125,,7940, ,-44.3903881,171.2372756
+CC63390,The Methodist Church Of New Zealand Te Haahi Weteriana O Aotearoa Blenheim Tongan Parish (7890),Blenheim,,3 Henry Street,Blenheim 7201,7201, ,-41.5099104,173.9536706
+CC63394,Apostolic Faith Mission NZ Auckland,Auckland,,227A Birkdale Road, ,626,Birkdale,-36.7898716,174.700837
+CC63388,The Potters House Christian Fellowship East Tamaki,Auckland,,5 Orinda Close,,2010,Botany Downs,-36.9085979,174.9260803
+CC63391,Disability Disruption Charitable Trust,Papamoa,,19 Domain Road, ,3118,Papamoa Beach,-37.7008328,176.2853373
+CC63393,Climate Trust Aotearoa NZ,Christchurch,,58 Puriri Street, ,8041,Riccarton,-43.5256672,172.591731
+CC63392,Reefton Care Trust,Reefton,,5 Brennan Street,,7830, ,-42.1137794,171.8607831
+CC63401,The Twofold Bay Charitable Trust,Napier,,"Black & White Accounting, 5 Carlyle Street", ,4110,Napier South,-39.4915809,176.9122087
+CC63399,Enderby Trust,Whangārei,,752A Matapouri Road, ,173,Matapouri,-35.574426,174.5234431
+CC63398,YESHUA FOR ALL NATIONS - NEW ZEALAND CHARITABLE TRUST,Auckland,,21 Kelwyn Road, ,602,Kelston,-36.9013111,174.6680381
+CC63400,Waikato Malaysian Society Incorporated,Hamilton,,20A Pearsons Avenue, ,3214,Claudelands,-37.7759959,175.2949722
+CC63402,Debre Medhanit Medhanialem Eritrean Orthodox Tewahdo Church Auckland Incorporated,Auckland,,443 Dominion Road, ,1024,Mount Eden,-36.8838693,174.7478583
+CC63395,Redemption Church Hibiscus Coast Trust,Red Beach,,36 Totara Views Drive,,932, ,-36.6080837,174.6850674
+CC63396,Taranaki Vaimoana Pasifika Charitable Trust,New Plymouth,,20 Calvert Road,,4310,Moturoa,-39.0617225,174.049347
+CC63397,Women's Refuge Porirua Inc,Christchurch,,5 Charnwood Crescent, ,8051,Bishopdale,-43.4863676,172.577602
+CC63405,Global Lighthouse Foundation,Auckland,,14 Tyburnia Avenue, ,1025,Mount Albert,-36.8950491,174.7275285
+CC63403,Huntly Bridge Club Incorporated,Huntly,,56 Russell Road,,3700, ,-37.5424756,175.1707194
+CC63404,Wheels Trust,Porirua,,18 Tremaine Place,,5026,Camborne,-41.0885411,174.8707818
+CC63407,Safina Trust Board,Auckland,,51A O'Donnell Avenue,,1041,Wesley,-36.8978991,174.7275889
+CC63408,Donor Bees Trust,Christchurch,,122 Gardiners Road, ,8051,Harewood,-43.4754752,172.5878664
+CC63419,ETU PASIFIKA AUCKLAND LIMITED,Auckland,,7A Pacific Rise,,1060,Mount Wellington,-36.9204474,174.8398285
+CC63410,The Enduring Legacy Trust,Christchurch,,Flat 3,16 Rhodes Street,8014,Merivale,-43.5215791,172.6190491
+CC63413,New Zealand Jewish Medical Association Incorporated,Havelock North,,PO Box 8380,,4157, ,-39.6694015,176.8783182
+CC63415,Te Ao Kita Limited,Auckland,,7 Seacrest Drive, ,618,West Harbour,-36.8133028,174.6418222
+CC63416,The Gift Box Foundation,Raglan,,36 Kaitoke Street,,3225,,-37.8068831,174.8725779
+CC63412,The Indian Newslink Charitable Community Trust,Auckland,,97 Great South Road, ,1051,Epsom,-36.8835697,174.7853619
+CC63411,NEW ZEALAND MIGRANT WOMEN EMPOWERMENT ASSOCIATION  INCORPORATED,Auckland,,Flat 1,456 Ellerslie-Panmure Highway,1060,Mount Wellington,-36.8965411,174.8428691
+CC63409,Eternal Testimony Church Of God,Auckland,,82 Park Avenue,,2025,Papatoetoe,-36.9799177,174.836245
+CC63418,Lions Club My Free Health Screening Check Charitable Trust,Feilding,,74 South Street,,4702, ,-40.2295195,175.5622705
+CC63414,Kia Kori Waitaha,Christchurch,,PO Box 76126,Northwood,8548,Belfast,-43.443281,172.6337403
+CC63417,Hopetide NZ Charitable Trust,Auckland,,35 Walpole Avenue, ,2102,Hillpark,-37.0147119,174.8997186
+CC63425,Te Taamatatanga o Pukekohekohe,Pukekohe,,27 Ward Street,,2120, ,-37.2107764,174.8962865
+CC63422,Divine Name of Jesus Christ Church New Zealand,Auckland,,138A Browns Road, ,2102,Manurewa,-37.0155768,174.8731408
+CC63424,The Community Clothing Exchange ,Rotorua,,20 Jervis Street, ,3015,Hillcrest,-38.147136,176.2339049
+CC63421,Pukekohe High School Parent Teacher Association,Pukekohe,,22 Isabella Drive,,2120,,-37.1878406,174.906328
+CC63426,Christian Evangelical Movement Incorporated,Auckland,,58B Hoteo Avenue,,2025,Papatoetoe,-36.9683628,174.865591
+CC63420,Land Search and Rescue Telecommunications and IT Incorporated,Christchurch,,19 Sheffield Crescent, ,8053,Burnside,-43.4919101,172.5607659
+CC63423,Living Waters International Christian Church,Dunedin,,1 St Andrew Street, ,9016,Dunedin Central,-45.871522,170.5036671
+CC63427,THE SOUTHLAND GEOLOGICAL AND LAPIDARY CLUB INCORPORATED,Invercargill,,56 Kildare Drive, ,9810,Waikiwi,-46.3774855,168.3600664
+CC63428,Speak Now Limited,Upper Hutt,,Flat 1,57 Ararino Street,5018,Trentham,-41.1356129,175.0425369
+CC63431,Rapanui Road Trail Trust,Whanganui,,C/- Q A Handley,Rapanui Road,4574,RD 4,-39.8874775,174.9594079
+CC63430,Te Pūhana Ora Charitable Trust,Chatham Islands,,PO Box 50,Waitangi,8942, ,-43.9514863,-176.5605551
+CC63429,Karori Kaitiaki (KAKA) Incorporated,Wellington,,36 Allington Road, ,6012,Karori,-41.2896511,174.7199951
+CC63432,Daystar Foundation ,NSW ,,1 Conjola Crescent , ,2560,Leumeah ,-34.0563506,150.8426891
+CC63433,Koru S.O.S. Trust,Tuakau,,12B Buckland Road,,2121, ,-37.266604,174.9408694
+CC63434,KOVINANITE FO'OU FELLOWSHIP CHURCH INCORPORATED,Auckland,,231 Bairds Road, ,2023,Otara,-36.9668589,174.8769268
+CC63436,Waiwaka Charitable Trust,Lower Hutt,,28 Singers Road, ,5012,Korokoro,-41.2196099,174.8684738
+CC63435,Raining Rabbit Rescue NZ,Auckland,,25 Bradbury Road, ,2010,Botany Downs,-36.9025594,174.9167658
+CC63437,NGĀTI HINEWAKA ME ŌNA HAPŪ KARANGA CHARITABLE TRUST,Masterton,,60 Pownall Street,,5810, ,-40.9472881,175.6481311
+CC63439,Rauawa Limited,Auckland,,147 Quay Street, ,1010,Auckland Central,-36.8397652,174.7656941
+CC63438,The Willowbank Foundation,Christchurch,,60 Hussey Road, ,8051,Northwood,-43.4632474,172.5942586
+CC63440,TBC Radio Charitable Trust,Auckland,,Suite 9,8 Dock Street,1010,Auckland Central,-36.8472059,174.7568726
+CC63442,DAT Fest Charitable Trust,Wellington,,4B Kenya Street,,6035,Ngaio,-41.2517305,174.7726445
+CC63441,Inspired Faith Church Mosgiel,Mosgiel,,13B Argyle Street,,9024, ,-45.8849329,170.3500274
+CC63444,The Gallen Foundation,Auckland,,"Duncan Cotterill (Auckland), Level 1, Australis Nathan Building",37 Galway Street,1010,Auckland Central,-36.8450047,174.7694402
+CC63443,Wairuakohu Charitable Trust,Silverdale,,269 Millwater Parkway,,932, ,-36.5981886,174.674084
+CC63446,Nauru Community New Zealand ,Waikato ,,115 Hitchen Road, ,2402,Pōkeno,-37.2490071,175.0119846
+CC63448,West Open Church,Auckland,,40 Kirrie Avenue, ,610,Te Atatu South,-36.8719978,174.6414194
+CC63445,Methven Area Security Enhancement Trust,Methven,,143 Forest Drive,,7730, ,-43.6290383,171.6367083
+CC63449,Remote East Nepal Outreach,Christchurch,,165A Sparks Road, ,8025,Hoon Hay,-43.5666269,172.5997862
+CC63451,"South Sea Evangelical Church, New Zealand",Papakura,,2C Edmund Hillary Avenue,,2110, ,-37.0596011,174.9548287
+CC63447,The Galloway Foundation,Wellington,,Level 6, 111 The Terrace,6011,Wellington Central,-41.2827762,174.7750815
+CC63450,Taumarunui Mobility Van Charitable Trust,Taumarunui,,37 Miriama Street,Taumarunui 3920,3920, ,-38.884457,175.2627477
+CC63454,Families Overcoming Addiction,New Plymouth,,207 Gill Street, ,4312,Strandon,-39.0524619,174.0879113
+CC63457,The Storehouse Charitable Trust,Pokeno,,1 Market Street,Pokeno 2402,2402,Pōkeno,-37.244512,175.020188
+CC63453,Cass Bay Navy Cadets Incorporated,Christchurch,,5 Damien Place, ,8062,Bromley,-43.5387446,172.6826207
+CC63455,Tarata Hall Incorporated,Tarata,,1757 Tarata Road,Tarata 4387,4387, ,-39.1515524,174.363664
+CC63456,Heritage Baptist Church Incorporated,Matamata,,15 Birchwood Lane,,3400,,-37.8256965,175.7679276
+CC63452,Gate Pa Community Centre Trust,Tauranga,,17 Cook Street,,3112,Gate Pa,-37.7101622,176.1411273
+CC63464,Te Arahou o Aotearoa Trust,Auckland,,5 Jerram Street, ,1025,Mount Albert,-36.8862326,174.7066526
+CC63459,SOROPTIMIST INTERNATIONAL AOTEAROA NEW ZEALAND INCORPORATED,New Plymouth,,32 Culzean Grove, ,4312,Bell Block,-39.0300189,174.1405915
+CC63461,Te Atakura Institute for Educators Aotearoa (TAIEA),,,,,,,,
+CC63462,Living Hope Christian Church Trust,Cambridge,,2143 Maungatautari Road,RD 2,3494,Maungatautari,-37.9632973,175.6466668
+CC63467,Revive Op Shop Lower Hutt,Lower Hutt,,58 Ferry Road, ,5013,Days Bay,-41.276099,174.9059542
+CC63458,Larger Than Local Trust,Lower Hutt,,17 Troon Crescent, ,5010,Boulcott,-41.2019971,174.9245292
+CC63460,Dunedin Jewish Heritage Trust,Dunedin,,35 Crosby Street,,9011,Mornington,-45.8863508,170.4773203
+CC63463,Chaar Sahibzaade Community Trust,Thames,,308A Mackay Street,,3500,,-37.1383356,175.5405213
+CC63465,Zero Waste Tāmaki Makaurau Trust,Auckland,,153 Pilkington Road, ,1072,Point England,-36.8880836,174.8570329
+CC63469,Auckland Christ Life Church,Auckland,,831 New North Road, ,1025,Mount Albert,-36.8819115,174.7194392
+CC63466,Poroporo Rugby & Sports Club Incorporated ,Whakatāne,,364 Te Rahu Road, ,3192,Poroporo,-37.9774576,176.9604815
+CC63468,Ikawhakataka Inc,Wellington,,Unit 9,Fernhill Flats,6011,Te Aro,-41.295471,174.77714
+CC63507,The Average Joe Foundation,Auckland,,33 Leslie Avenue, ,1025,Sandringham,-36.8774291,174.7374244
+CC63475,The Lighthouse Ministry,Tauranga,,57A Windsor Road, ,3110,Bellevue,-37.6824407,176.1287912
+CC63476,AUSC INC,Auckland,,School of Music,6 Symonds Street,1010,Auckland CBD,-36.8508915,174.7719346
+CC63472,Church of Jesus - New Zealand,Hawera,,10 Maire Street, ,4610,Hāwera,-39.5796962,174.2690264
+CC63474,Inspired Faith Church Ashburton,Ashburton,,10A Nixon Street,,7700,Tinwald,-43.9132211,171.7286411
+CC63473,DialNZ,Auckland,,12/50 Albert Street,,1010, ,-36.8464229,174.7647674
+CC63470,The J B Putt Charitable Trust,Wellington,,Private Bag 5902,,6140,Pipitea,-41.2795401,174.7792417
+CC63471,Ruahine Animal Rescue Inc,Waipukurau,,15 Coughlan Road,,4200,,-39.9916278,176.546208
+CC63484,Jogging The Powerpoles Incorporated,Rotorua,,396 Clayton Road, ,3015,Pukehangi,-38.1332734,176.1953568
+CC63481,Kirikiriroa Health Holdings Limited,Hamilton,,3 Thackeray Street,,3204,Hamilton Central,-37.7919684,175.2834051
+CC63479,Kirikiriroa Health General Practice Limited,Hamilton,,3 Thackeray Street,,3204,Hamilton Central,-37.7919684,175.2834051
+CC63477,Wairarapa Catchment Collective Incorporated,Masterton,,61 Matahiwi Road,RD 8,5888,Matahiwi,-40.9252461,175.6321689
+CC63488,YAHWEH SAMOAN AOG CHURCH,Auckland,,135 View Road, ,612,Sunnyvale,-36.8936293,174.6406573
+CC63485,Mangakahia Morehu Brass Band Charitable Trust,Whangarei,,2877 Mangakahia Road,RD 2,172,Parakao,-35.7087746,173.9389276
+CC63482,Thinky Things Charitable Trust,Auckland,,29 Pandora Place,,2010,Pakuranga,-36.9159515,174.8654996
+CC63480,Just 4 Dudes Charitable Trust,Auckland,,6 Lansdown Avenue,,2025,Papatoetoe,-36.9601175,174.8512901
+CC63487,WAIKATO WATER POLO CLUB INCORPORATED,Hamilton,,Waterworld Aquatic Centre,Garnett Avenue,3204,Te Rapa,-37.7659312,175.2517598
+CC63489,Hua Wairarapa Charitable Trust,Carterton,,1674 Ponatahi Road,RD 2,5792,Ponatahi,-41.1070202,175.56374
+CC63483,The Hazara People Association of New Zealand Incorporated,Papakura,,1 Sunnypark Avenue, ,2113,Rosehill,-37.0801903,174.9418961
+CC63486,G S Raven Pipe Organ Fund,Auckland,,C/o Perpetual Guardian,"PO Box 1934, Shortland Street",1140, ,-36.8469493,174.7683459
+CC63478,Dunedin Indian Association Inc,Dunedin,,200 Larnach Road,,9013,Waverley,-45.8825705,170.5350946
+CC63492,Te Mauri o te Taiao Trust,Christchurch,,53A Kotare Street, ,8041,Fendalton,-43.5224583,172.5917174
+CC63493,DAOISM ASSOCIATION OF NEW ZEALAND CHARITABLE TRUST,Auckland,,6H Rosedale Road, ,632,Windsor Park,-36.7343509,174.7331031
+CC63495,Brown Pride Charitable Trust,Auckland,,19B Norman Spencer Drive, ,2104,Papatoetoe,-36.9880383,174.8683243
+CC63490,Altum Academic Charitable Trust,Lower Hutt,,8 Raroa Road, ,5010,Hutt Central,-41.2073895,174.908548
+CC63494,SWEET NOAH ANIMAL RESCUE,Auckland,,3 Beatrice Place, ,2016,Flat Bush,-36.9582284,174.9334825
+CC63496,The Kairangi Bridge Club Incorporated,Wellington,,138 Hobart Street,,6022,Miramar,-41.3174952,174.816247
+CC63502,Pacific Capability Building Trust,Lyttelton,,20 Harbour View Terrace,,8082,Cass Bay,-43.6047164,172.6922274
+CC63512,Granity District Fundraising Centre Incorporated,Granity,,98 Torea Street,,7823, ,-41.6281607,171.8546326
+CC63508,Halswell Tennis Charitable Trust,Christchurch,,25 Dunsford Close,75 Peterborough Street,8025,Halswell,-43.5776934,172.57448
+CC63509,Te Mana o Tauhara Charitable Trust,Taupo,,88 Kaimanawa Street,,3330,Taupō,-38.6838468,176.0787336
+CC63497,Multiples Counties Manukau Incorporated ,Auckland,,3 Lemonwood Place, ,2105,The Gardens,-37.0109758,174.9126272
+CC63498,Clutha Health Trust,Balclutha,,3-7 Charlotte Street,,9230,,-46.2367916,169.7405134
+CC63503,Smartphone Free Childhood NZ Charitable Trust,Auckland,,Flat 13,18 Takitimu Street,1071,Orakei,-36.8549823,174.8218301
+CC63511,Hamilton Waikato City Mission Trust,Hamilton,,818 Woodlands Road,RD 1,3281,Gordonton,-37.6408325,175.3814145
+CC63510,Ekalesia Kelisiano Tuvalu Noataga Auckland Trust,Auckland,,18 Illana Place, ,612,Ranui,-36.8702435,174.6017879
+CC63504,Roman Catholic Diocese of Auckland Chinese Migrant Chaplaincy Ecclesiastical Goods Trust,Auckland,,30 New Street, ,1011,Saint Marys Bay,-36.845234,174.7480725
+CC63499,NEURODIVERSITY TRANSFORMED LIMITED,Wanaka,,22 Rata Street, ,9305,Wānaka,-44.677674,169.1356142
+CC63505,Roman Catholic Diocese of Auckland Latin American Migrant Chaplaincy Ecclesiastical Goods Trust,Auckland,,30 New Street,,1011,Saint Marys Bay,-36.845234,174.7480725
+CC63506,Roman Catholic Diocese of Auckland Samoan Migrant Chaplaincy Ecclesiastical Goods Trust,Auckland,,30 New Street,,1011,Saint Marys Bay,-36.845234,174.7480725
+CC63500,Ulua'ipou o le Talalelei Trust,Nelson,,273 Songer Street, ,7011,Stoke,-41.3156339,173.2385759
+CC63516,Sikh Sangat South Canterbury Incorporated,Timaru,,PO Box 125,,7940,,18.6848086,100.8000051
+CC63513,Hands For Impact,Auckland,,450 Huia Road, ,604,Laingholm,-36.9568703,174.625474
+CC63515,Shambhala Animal Sanctuary Trust,New Plymouth,,56C Victoria Road,,4310, ,-39.0673053,174.0778835
+CC63514,The Miracle Tree Charitable Trust,Auckland,,Unit GA3,93 Ascot Avenue,1051,Remuera,-36.889443,174.798979
+CC63517,NUHAKA CATCHMENT GROUP INCORPORATED,Nūhaka,,331 Kokohu Road,Nūhaka 4198,4198, ,-39.0237765,177.6826337
+CC63520,North End Rowing Club Charitable Trust Board,Dunedin,,Boat Harbour Reserve,54 Magnet Street,9016, ,-45.870795,170.53172
+CC63518,The Danni Charitable Trust,Auckland,,PO Box 47330,,1144,Ponsonby,-36.8484732,174.7438305
+CC63519,Seven Songs Concert Group of New Zealand Incorporated ,Auckland,,20B Te Pai Place, ,610,Henderson,-36.8624335,174.6321154
+CC63524,Harikoa Foundation Trust Board,Auckland,,4A Westbourne Road,,630,Murrays Bay,-36.7316598,174.7517263
+CC63525,Fale o Mana Moana,Wellington,,403 Karori Road, ,6012,Karori,-41.2880026,174.7260344
+CC63523,Saint Lukes Castlecliff Limited,Wellington,,18 Eccleston Hill, ,6011,Thorndon,-41.2758234,174.7768647
+CC63521,GREAT HARMONY RESEARCH & LEARNING CENTER LIMITED,Auckland,,58 Titirangi Road, ,600,New Lynn,-36.9144986,174.6733975
+CC63522,Saint Peters Gonville Limited,Wellington,,18 Eccleston Hill, ,6011,Thorndon,-41.2758234,174.7768647
+CC63526,Borrow Box Project NZ,Auckland,,7B Fynes Avenue, ,1072,Stonefields,-36.887992,174.8437209
+CC63533,Queenstown Multicultural Festival ,Queenstown,,"Unit 24B, 193 Glenda Drive", ,9300,Frankton,-45.0130004,168.7566525
+CC63530,THE MĀORI COALITION CHARITABLE TRUST,Palmerston North,,6 Seddon Street, ,4412,Takaro,-40.3495527,175.5900082
+CC63536,Folauga I Siona Fou Trust,Hastings,,7 Korari Avenue, ,4120,Flaxmere,-39.6134966,176.7744139
+CC63528,TGH Ruakura Whenua Hold Co Limited,Hamilton,,6 Bryce Street, ,3204,Hamilton Central,-37.7846015,175.281361
+CC63529,TGH Ruakura JV Whenua Hold Co Limited,Hamilton,,6 Bryce Street,,3204,Hamilton Central,-37.7846015,175.281361
+CC63534,TGH Ruakura Management GP Limited,Hamilton,,6 Bryce Street,,3204,Hamilton Central,-37.7846015,175.281361
+CC63532,TGH Ruakura Partnership JV Investment GP Limited,Hamilton,,6 Bryce Street,,3204,Hamilton Central,-37.7846015,175.281361
+CC63535,RSH Feeder GP Limited,Hamilton,,6 Bryce Street,,3204,Hamilton Central,-37.7846015,175.281361
+CC63531,The Harold Royds Charitable Trust Fund,Auckland ,,C/o Perpetual Guardian,PO Box 1934,1140,Shortland Street,-36.8469493,174.7683459
+CC63537,Ohu Taiao,Hāwera,,40 Union Street,,4610,,-39.5880293,174.2824145
+CC63527,Otago Wheelchair Rugby Incorporated ,Dunedin,,153 Ashmore Street,,9010,Halfway Bush,-45.8559352,170.4617221
+CC63538,Taranaki Youth Sporting Trust,New Plymouth,,336 Henwood Road,RD 2,4372,Hillsborough,-39.063109,174.1502533
+CC63540,Printopia Charitable Trust,Auckland,,Flat 5F,Eden Apartments,1010,Auckland Central,-36.8482312,174.7724149
+CC63545,Baycrest Village Limited,Whangaparāoa,,6 Walbrook Road, ,930,Manly,-36.6304217,174.7676572
+CC63539,Citizens of the Sea,Nelson,,c/o Cawthron Insitute,Private Bag 2,7040,,,
+CC63546,Te Kohanga Reo I Nga Hau E Wha Invercargill Society Incorporated,Invercargill,,98 Balmoral Drive, ,9812,Appleby,-46.4241595,168.3529722
+CC63544,Farmstrong Charitable Trust,Wellington,,"Level 1, 10 Waterloo Quay", ,6011,Pipitea,-41.2814733,174.7796598
+CC63542,The Brett Motley Sound Foundation,Napier,,21 Merton Crescent, ,4112,Pirimai,-39.5135523,176.8808734
+CC63541,Otahuti Tennis Club,Invercargill,,411 Waimatuku Flat Road,Otahuti No 4RD,9874,,-46.2621407,168.1771934
+CC63543,PINOY COMMUNITY SUPPORT AND DEVELOPMENT TRUST (PCSDT),Christchurch,,Unit 6,464 Main South Road,8042,Hornby,-43.5438821,172.5175587
+CC63551,Kiwi Health and Wellness,Auckland,,42 Matarangi Road, ,2013,East Tamaki,-36.9358458,174.9060521
+CC63549,New Zealand Nattukotai Nagarathar Sangam Inc,Auckland,,214B Church Street, ,1061,Onehunga,-36.9212689,174.7974777
+CC63548,REHOBOTH CHARITABLE FOUNDATION AND MINISTRIES,Havelock North,,59 Breadalbane Avenue,,4130, ,-39.6836036,176.8718672
+CC63550,Cambridge Public Art Trust,Cambridge,,22 Dick Street,Cambridge 3434,3434,,-37.8925226,175.4655621
+CC63552,First Fruit Agape International Ministry NZ Mosgiel,Mosgiel,,61 Riccarton Road East,,9024,East Taieri,-45.8967827,170.3360105
+CC63547,Lowe & Co Foundation,Wellington,,64 Brougham Street, ,6011,Mount Victoria,-41.2970152,174.7846076
+CC63553,Tui Awhina Consultancy Services Limited,Tauranga,,181 Opureora Road, ,3172,Matakana Island,-37.6105825,176.0818027
+CC63555,Holy Nation ,Kaitaia,,184 Commerce Street,Kaitaia 0410,410,Awanui,-35.111359,173.2612093
+CC63557,Filipino Basketball Association Christchurch Incorporated,Christchurch,,59C Sturrocks Road, ,8051,Redwood,-43.4741658,172.6118646
+CC63554,"Church of the Living God, Pillar and Ground of the Truth, The Light of the World, Auckland",Auckland,,6 Sophie Lane, ,612,Henderson,-36.8808315,174.6389046
+CC63558,Taupo Indoor Sports Hub Charitable Trust,Taupo,,75C Rokino Road, ,3330,Hilltop,-38.6999618,176.0906789
+CC63565,Come to the Table Street Ministry Outreach Charitable Trust,Auckland,,74 Te Irirangi Drive, ,2019,Clover Park,-36.9828405,174.891989
+CC63560,Ruahāpia Marae Reservation Trust,Hastings,,PO Box 2136,,4156,,18.6848086,100.8000051
+CC63563,UFCSA West Incorporated,Auckland,,4 Pyramid Place, ,602,Glen Eden,-36.9075553,174.6344317
+CC63564,AUCKLAND NEPALESE SPORTS AND RECREATION CLUB INCORPORATED,Auckland,,67 Magma Crescent,,1072,Stonefields,-36.8865748,174.8345747
+CC63566,Waimarie Whanganui Enterprises Limited,Whanganui,,1A Taupo Quay,,4500,,-39.9327899,175.0576443
+CC63562,NGĀ KAIHOE Ō MANIAPOTO INC,Te Kūiti,,340 Oparure Road,,3985, ,-38.3165248,175.1126888
+CC63559,Abbeyfield New Plymouth District Incorporated,New Plymouth,,66 Dillon Drive,,4312,Bell Block,-39.0215179,174.1511653
+CC63561,Tai Awa Waka Ama Manatōpū,Whanganui,,21 Fromont Street, ,4500,Whanganui East,-39.9180352,175.062248
+CC63571,"Gurudwara Singh Sabha Trust, Dunedin",Dunedin,,310 Highcliff Road, ,9013,Highcliff,-45.8851488,170.5474477
+CC63570,Eastern Bay Media Trust,Whakatane,,115 Riverside Drive,,3120,Whakatāne,-37.9616721,176.9581146
+CC63567,The New Zealand Food Communicators Trust,Auckland,,70 Burnley Terrace, ,1025,Sandringham,-36.8784721,174.7442265
+CC63569,Sanctuary Sounds Charitable Trust,Takapau,,84 Takapau Ormondville Road,RD 2,4287, ,-40.035174,176.3436798
+CC63568,Hamilton Family Care Centre Charitable Trust,Hamilton,,2 Mahoe Street,,3206,Melville,-37.8100851,175.2805144
+CC63572,Breathe Charitable Trust,Lake Tekapo,,PO Box 182,,7945,,-44.004336,170.4772187
+CC63575,Palmy Sri Lankan Buddhist Society Incorporated,Palmerston North,,147 Benmore Avenue, ,4412,Cloverlea,-40.3405401,175.5921383
+CC63576,Haakarimata Restoration Trust,Ngaruawahia,,22 Galileo Street, ,3720,Ngāruawāhia,-37.6690935,175.1522102
+CC63574,Age Concern Southland Charitable Trust,Invercargill,,50 Forth Street,Invercargill 9810,9810, ,-46.4142129,168.3498778
+CC63573,Guardians of Tutira and Districts Incorporated,Tutira,,PO Box 10,,4162, ,-39.203957,176.881481
+CC63584,Suicide Reduction Trust Limited,Pukekohe,,266 Waiuku Road,RD 3,2678,Puni,-37.2292452,174.8623208
+CC63579,Building Futures Foundation Limited,Hastings,,27 Poporo Way,RD 5,4175,Longlands,-39.6468902,176.8002462
+CC63577,Timaru Festivals Trust,Timaru,,17 Strathallan Street,,7910, ,-44.3948703,171.2534855
+CC63583,Te Ahunganui:Te Apounga Charitable Trust ,Auckland,,49 Charles Prevost Drive, ,2105,The Gardens,-37.0079468,174.9107973
+CC63578,Friends of the Great Outdoors,Auckland,,149 Forest Hill Road,,612,Henderson,-36.9044943,174.608832
+CC63580,Friends of Seddon School Incorporated,Seddon,,17 Redwood Street,,7210, ,-41.6754696,174.073095
+CC63585,Te Ora Puāwai Limited,Auckland,,38 Richard Pearse Drive, ,2022,Mangere,-36.9765452,174.7844793
+CC63582,Ashburton Senior Citizens Trust,Ashburton,,255 Moore Street,,7700, ,-43.9078133,171.7483251
+CC63581,North End Rowing Club Incorporated,Dunedin,,54 Magnet Street, ,9058,Central Dunedin,-45.870795,170.53172
+CC63588,Te Wai O Tangaroa Limited,Auckland,,53 Atkinson Road, ,604,Titirangi,-36.9232884,174.6556161
+CC63587,NORTH SHORE NEIGHBOURHOOD SUPPORT INCORPORATED,Auckland,,26D Inverness Road, ,630,Browns Bay,-36.7157328,174.7446642
+CC63590,The New Zealand Kingdom Hall Trust,Papakura,,158-160 Clevedon Road,Papakura 2110,2110, ,-37.0535119,174.9606067
+CC63592,Luptonbio Limited,Auckland,,123A Apirana Avenue, ,1072,Glen Innes,-36.8740264,174.8534482
+CC63589,Gore Agricultural and Pastoral Association,Gore,,9 Bury Street,,9710,,-46.1104168,168.9413132
+CC63586,South Asian Lutheran Evangelical Mission (NZ) Limited,Auckland,,97 Great South Road, ,1051,Epsom,-36.8835697,174.7853619
+CC63591,MASSEY UNIVERSITY WELLINGTON CHAPLAINCY TRUST,Wellington,,64 Severn Street,,6023,Island Bay,-41.3413529,174.7663675
+CC63597,KUNGFU CHAN TEMPLE OF NEW ZEALAND,Auckland,,Flat 1,58 Highland Park Drive,2010,Highland Park,-36.9020849,174.912855
+CC63596,Football Club Khukuri Incorporated,Auckland,,34C Tomo Street, ,600,New Lynn,-36.9165296,174.663068
+CC63595,The Comet Swimming Club Charitable Trust,Gisborne,,10 Solander Street, ,4010,Awapuni,-38.6678246,178.0010239
+CC63593,Burundian Association in New Zealand Incorporated,Auckland,,7c Taurus Crescent, ,626,Beach Haven,-36.803177,174.6931554
+CC63594,Te Whare Kokonga Charitable Trust,Hamilton,,58 Bader Street, ,3206,Bader,-37.8089163,175.2922799
+CC63598,Cahoots Limited,Wellington,,11 Hopper Street, ,6011,Mount Cook,-41.2987588,174.7744652
+CC63599,New Zealand Art & Culture Charitable Trust,Auckland,,1 Mazuran Place, ,2016,Flat Bush,-36.9579693,174.9313718
+CC63601,Roman Catholic Diocese of Auckland Brazilian Migrant Chaplaincy Ecclesiastical Goods Trust,Auckland,,30 New Street,,1011,Saint Marys Bay,-36.845234,174.7480725
+CC63600,Roman Catholic Diocese of Auckland Croatian Migrant Chaplaincy Ecclesiastical Goods Trust,Auckland,,30 New Street,,1011,Saint Marys Bay,-36.845234,174.7480725
+CC63610,Affiliation of Care,Hamilton,,87 Hoeka Road,RD 4,3284,Matangi,-37.7851045,175.3914952
+CC63602,Youth Nu'u Trust Board,Palmerston North,,338 Church Street,,4410, ,-40.3582387,175.6107924
+CC63605,Aroha Cambridge,Cambridge,,33 Jarrett Terrace, ,3432,Leamington,-37.9055104,175.4597842
+CC63604,Roman Catholic Diocese of Auckland Filipino Migrant Chaplaincy Ecclesiastical Goods Trust,Auckland,,30 New Street, ,1011,Saint Marys Bay,-36.845234,174.7480725
+CC63606,Roman Catholic Diocese of Auckland Indonesian Migrant Chaplaincy Ecclesiastical Goods Trust,Auckland,,30 New Street,,1011,Saint Marys Bay,-36.845234,174.7480725
+CC63607,Roman Catholic Diocese of Auckland Sri Lankan Migrant Chaplaincy Ecclesiastical Goods Trust,Auckland,,30 New Street,,1011,Saint Marys Bay,-36.845234,174.7480725
+CC63608,Roman Catholic Diocese of Auckland Tongan Migrant Chaplaincy Ecclesiastical Goods Trust,Auckland,,30 New Street,,1011,Saint Marys Bay,-36.845234,174.7480725
+CC63609,Roman Catholic Diocese of Auckland Vietnamese Migrant Chaplaincy Ecclesiastical Goods Trust,Auckland,,30 New Street,,1011,Saint Marys Bay,-36.845234,174.7480725
+CC63603,Her Voice Collective,Rangiora,,44 Percival Street,,7400, ,-43.3142567,172.5969151
