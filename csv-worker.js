@@ -29,7 +29,7 @@ self.onmessage = function (e) {
 
         if (!isNaN(lat) && !isNaN(lon)) {
           // Link to the Charities Register using the CC number
-          const registerUrl = `https://register.charities.govt.nz/Charity/Details/${encodeURIComponent(
+          const registerUrl = `https://register.charities.govt.nz/Charity/${encodeURIComponent(
             charityRegNumber
           )}`;
 
