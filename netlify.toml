@@ -1,0 +1,15 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/Organisations"
+  to   = "/.netlify/functions/organisations"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/GrpOrgLatestReturns"
+  to   = "/.netlify/functions/grpOrgLatestReturns"
+  status = 200
+  force = true

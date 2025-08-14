@@ -1,58 +1,56 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Registered Charities in New Zealand with an interactive map displaying locations and details of charitable organisations."
-    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Registered Charities Map</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     />
     <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
-      integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw=="
-      crossorigin=""
+      rel="stylesheet"
+      crossorigin
     />
     <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css"
-      integrity="sha512-ENrTWqddXrLJsQS2A86QmvA17PkJ0GVm1bqj5aTgpeMAfDKN2+SIOLpKG8R/6KkimnhTb+VW5qqUHB/r1zaRgg=="
-      crossorigin=""
+      rel="stylesheet"
+      crossorigin
     />
     <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css"
-      integrity="sha512-fYyZwU1wU0QWB4Yutd/Pvhy5J1oWAwFXun1pt+Bps04WSe4Aq6tyHlT4+MHSJhD8JlLfgLuC4CbCnX5KHSjyCg=="
-      crossorigin=""
+      rel="stylesheet"
+      crossorigin
     />
     <link
-      rel="stylesheet"
       href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"
-      crossorigin=""
+      rel="stylesheet"
+      crossorigin
     />
-    <link rel="stylesheet" href="styles.css" /></head
-  ><!-- Google tag(gtag.js)-->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-9S3FM53SXQ"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "G-9S3FM53SXQ");
-  </script>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .leaflet-popup-content .addr-pop {
+        line-height: 1.25;
+        font-size: 12px;
+        max-width: 240px;
+      }
+      .leaflet-popup-content .addr-pop strong {
+        display: block;
+        margin-bottom: 2px;
+      }
+    </style>
+  </head>
   <body>
+    <div id="charity-panel" class="charity-panel" aria-live="polite">
+      <button id="panel-close" class="panel-close" aria-label="Close">×</button>
+      <div id="panel-content" class="panel-content"></div>
+    </div>
+
     <div
       id="charity-search-container"
       class="leaflet-control-geocoder leaflet-bar leaflet-control"
@@ -62,7 +60,6 @@
         id="charity-search-btn"
         type="button"
         aria-label="Search"
-        placeholder="Search by Address"
       >
         &nbsp;
       </button>
@@ -79,251 +76,541 @@
         class="leaflet-control-geocoder-alternatives leaflet-control-geocoder-alternatives-minimized"
       ></ul>
     </div>
+
     <div id="map"></div>
     <div id="loading-spinner"></div>
+    <div id="toast" class="toast">Search moved to:</div>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"
-      integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g=="
-      crossorigin=""
+      crossorigin
     ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"
-      integrity="sha512-TiMWaqipFi2Vqt4ugRzsF8oRoGFlFFuqIi30FFxEPNw58Ov9mOy6LgC05ysfkxwLE0xVeZtmr92wVg9siAFRWA=="
-      crossorigin=""
+      crossorigin
     ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/perliedman-leaflet-control-geocoder/3.2.0/Control.Geocoder.min.js"
-      integrity="sha512-ROpNSens6Zsc5ke3LG5SdFBZ5qBgGxuFNehalUhLNmfjPxgUjqGRpulOsSr+LFbMH71yjAehkbgSVKPsAA6mXA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
     <script>
-      window.addEventListener("load", function () {
-        var map = L.map("map", {
-          attributionControl: !0,
-          worldCopyJump: !0,
-          minZoom: 4,
-        }).setView([-40.9006, 174.886], 6);
-        var attribution =
-          'Registered Charities in New Zealand | &copy; <a href="https://carto.com/">Carto</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
-        var polygons = [];
-        var spinner = document.getElementById("loading-spinner");
-        spinner.style.display = "block";
+      // ---------------- Utilities ----------------
+      const $ = (id) => document.getElementById(id);
+      const n = (v) => (v == null || v === "" ? 0 : Number(v));
+      const esc = (s) =>
+        String(s ?? "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
 
-        // Spinner
-        let workersDone = 0;
-        function hideSpinner() {
-          workersDone++;
-          console.log("Worker done, count: " + workersDone);
-          if (workersDone === 2) {
-            spinner.style.display = "none";
-          }
+      // Accept strings / arrays / objects from OData and turn into readable text
+      function textify(v) {
+        if (v == null) return "";
+        if (Array.isArray(v)) return v.map(textify).filter(Boolean).join(", ");
+        if (typeof v === "object") {
+          if (Array.isArray(v.results))
+            return v.results.map(textify).join(", ");
+          if (Array.isArray(v.value)) return v.value.map(textify).join(", ");
+          return Object.values(v).map(textify).filter(Boolean).join(", ");
         }
+        return String(v);
+      }
+      function pickText(...vals) {
+        for (const v of vals) {
+          const t = textify(v).trim();
+          if (t) return t;
+        }
+        return "";
+      }
 
-        L.tileLayer(
-          "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
-          { attribution: attribution }
-        ).addTo(map);
-        map.attributionControl.setPrefix("");
-        var charityData = [];
-        var groupData = [];
-        var charityMarkersCluster = L.markerClusterGroup({
-          animateAddingMarkers: !0,
-          showCoverageOnHover: !1,
-          spiderfyOnMaxZoom: !0,
-        });
-        var groupMarkersCluster = L.markerClusterGroup({
-          animateAddingMarkers: !0,
-          showCoverageOnHover: !1,
-          spiderfyOnMaxZoom: !0,
-        });
-        var combinedMarkersCluster = L.markerClusterGroup({
-          animateAddingMarkers: !0,
-          showCoverageOnHover: !1,
-          spiderfyOnMaxZoom: !0,
-        });
-        if (window.Worker) {
-          var charityWorker = new Worker("csv-worker.js");
-          charityWorker.postMessage({
-            csvFile: "combined_charities_data.csv",
-            markerType: "charity",
-          });
-          charityWorker.onmessage = function (e) {
-            charityData = e.data;
-            var charityMarkers = [];
-            charityData.forEach(function (markerInfo) {
-              var marker = L.marker([markerInfo.lat, markerInfo.lon]).bindPopup(
-                markerInfo.popupContent
-              );
-              charityMarkers.push(marker);
-              combinedMarkersCluster.addLayer(marker);
-            });
-            charityMarkersCluster.addLayers(charityMarkers);
-            map.addLayer(charityMarkersCluster);
-            hideSpinner();
-          };
-          var groupWorker = new Worker("csv-worker.js");
-          groupWorker.postMessage({
-            csvFile: "combined_groups_data.csv",
-            markerType: "group",
-          });
-          groupWorker.onmessage = function (e) {
-            groupData = e.data;
-            var groupMarkers = [];
-            var greenIcon = new L.Icon({
-              iconUrl: "marker-icon-2x-green.png",
-              shadowUrl: "marker-shadow.png",
-              iconSize: [25, 41],
-              iconAnchor: [12, 41],
-              popupAnchor: [1, -34],
-              shadowSize: [41, 41],
-            });
-            groupData.forEach(function (markerInfo) {
-              var marker = L.marker([markerInfo.lat, markerInfo.lon], {
-                icon: greenIcon,
-              }).bindPopup(markerInfo.popupContent);
-              groupMarkers.push(marker);
-              combinedMarkersCluster.addLayer(marker);
-            });
-            groupMarkersCluster.addLayers(groupMarkers);
-            hideSpinner();
-          };
-        } else {
-          console.log("Web Workers are not supported in your browser.");
-        }
-        var baseMaps = {
-          Charities: charityMarkersCluster,
-          Groups: groupMarkersCluster,
-          "Charities and Groups": combinedMarkersCluster,
-        };
-        L.control.layers(baseMaps).addTo(map);
-        var charitySearchButton = document.getElementById("charity-search-btn");
-        var charitySearchInput = document.getElementById(
-          "charity-search-input"
+      function showToast(message) {
+        const toast = $("toast");
+        if (!toast) return;
+        toast.textContent = message;
+        toast.className = "toast show";
+        setTimeout(
+          () => (toast.className = toast.className.replace("show", "")),
+          3000
         );
-        var charitySearchContainer = document.getElementById(
-          "charity-search-container"
-        );
-        const layerControl = document.querySelector(".leaflet-control-layers");
-        let searchCharityTop = parseInt(
-          window.getComputedStyle(charitySearchContainer).top,
-          10
-        );
-        function moveSearchContainerDown() {
-          charitySearchContainer.style.setProperty(
-            "top",
-            `${searchCharityTop + 29}px`,
-            "important"
+      }
+
+      // ---------------- API ----------------
+      const API = {
+        async org(cc) {
+          const r = await fetch(
+            `http://www.charities.co.nz/api/Organisations?cc=${encodeURIComponent(
+              cc
+            )}`
           );
-        }
-        function moveSearchContainerUp() {
-          charitySearchContainer.style.setProperty(
-            "top",
-            `${searchCharityTop}px`,
-            "important"
+          if (!r.ok)
+            throw new Error(`Organisations ${r.status}: ${await r.text()}`);
+          const d = await r.json();
+          return Array.isArray(d?.value)
+            ? d.value[0]
+            : Array.isArray(d?.d?.results)
+            ? d.d.results[0]
+            : Array.isArray(d?.d)
+            ? d.d[0]
+            : null;
+        },
+        async latestReturn(cc) {
+          const r = await fetch(
+            `http://www.charities.co.nz/api/GrpOrgLatestReturns?cc=${encodeURIComponent(
+              cc
+            )}`
           );
-        }
-        window.onload = function () {
-          if (layerControl) {
-            layerControl.addEventListener("mouseover", moveSearchContainerDown);
-            layerControl.addEventListener("mouseout", moveSearchContainerUp);
-          }
-        };
-        charitySearchButton.addEventListener("click", function () {
-          charitySearchContainer.classList.toggle(
-            "leaflet-control-geocoder-expanded"
-          );
-          charitySearchInput.focus();
-        });
-        charitySearchInput.addEventListener("focusout", function () {
-          charitySearchContainer.classList.remove(
-            "leaflet-control-geocoder-expanded"
-          );
-        });
-        charitySearchInput.addEventListener("keydown", function (event) {
-          if (event.key === "Enter") {
-            var searchValue = charitySearchInput.value.trim();
-            if (!searchValue) {
-              showToast("Please enter a valid charity registration number.");
-              return;
-            }
-            var found = !1;
-            var charity = charityData.find(function (charity) {
-              return (
-                charity.charityRegNumber.toLowerCase() ===
-                searchValue.toLowerCase()
-              );
-            });
-            if (!charity) {
-              charity = groupData.find(function (group) {
-                return (
-                  group.charityRegNumber.toLowerCase() ===
-                  searchValue.toLowerCase()
-                );
-              });
-            }
-            if (charity) {
-              map.setView([charity.lat, charity.lon], 16);
-              var marker = L.marker([charity.lat, charity.lon]).addTo(map);
-              marker.bindPopup(charity.popupContent).openPopup();
-              charitySearchInput.value = "";
-            } else {
-              showToast(
-                "Charity or Group not found or address couldn't be geocoded."
-              );
-            }
-          }
-        });
-        var geocoderControl = L.Control.geocoder({
-          defaultMarkGeocode: !1,
-          geocoder: L.Control.Geocoder.nominatim(),
-        })
-          .on("markgeocode", function (e) {
-            var bbox = e.geocode.bbox;
-            var locationName = e.geocode.name;
-            var poly = L.polygon([
-              [bbox.getSouthEast().lat, bbox.getSouthEast().lng],
-              [bbox.getNorthEast().lat, bbox.getNorthEast().lng],
-              [bbox.getNorthWest().lat, bbox.getNorthWest().lng],
-              [bbox.getSouthWest().lat, bbox.getSouthWest().lng],
-            ]).addTo(map);
-            polygons.push(poly);
-            map.fitBounds(poly.getBounds());
-            showToast("Search moved to: " + locationName);
-          })
-          .addTo(map);
-        var clearControl = L.Control.extend({
-          options: { position: "topright" },
-          onAdd: function (map) {
-            var container = L.DomUtil.create(
-              "div",
-              "leaflet-bar custom-clear-control"
+          if (!r.ok)
+            throw new Error(
+              `GrpOrgLatestReturns ${r.status}: ${await r.text()}`
             );
-            var button = L.DomUtil.create("a", "", container);
-            button.innerHTML = "Clear";
-            button.title = "Clear Search Areas";
-            button.href = "#";
-            L.DomEvent.on(button, "click", function (e) {
-              L.DomEvent.preventDefault(e);
-              polygons.forEach(function (poly) {
-                map.removeLayer(poly);
-              });
-              polygons = [];
-            });
-            return container;
+          const d = await r.json();
+          return Array.isArray(d?.value)
+            ? d.value[0]
+            : Array.isArray(d?.d?.results)
+            ? d.d.results[0]
+            : Array.isArray(d?.d)
+            ? d.d[0]
+            : null;
+        },
+      };
+
+      // ---------------- Charts ----------------
+      function pieBucketsForIncome(row) {
+        return [
+          {
+            label: "Donations, fundraising and other similar receipts",
+            value: n(row.DonationsKoha),
+          },
+          {
+            label:
+              "Fees, subscriptions and other receipts (including donations) from members",
+            value: n(row.MembershipFees),
+          },
+          {
+            label: "Receipts from providing goods or services",
+            value: n(row.ServiceTradingIncome),
+          },
+          {
+            label: "Interest, dividends and other investment receipts",
+            value: n(row.InterestOfDividendsReceived),
+          },
+          { label: "Other receipts", value: n(row.AllOtherIncome) },
+        ].filter((b) => b.value > 0);
+      }
+      function pieBucketsForExpenditure(row) {
+        return [
+          {
+            label: "Payments related to public fundraising",
+            value: n(row.FundRaisingExpenses),
+          },
+          {
+            label: "Volunteer and employee related expenses",
+            value: n(row.VolunteerRelatedExpenses),
+          },
+          {
+            label: "Payments related to providing goods and services",
+            value: n(row.CostOfTradingOperations),
+          },
+          {
+            label: "Grants and donations paid",
+            value: n(row.GrantsorDonationsPaid),
+          },
+          {
+            label: "Other operating payments",
+            value: n(row.AllOtherExpenditure),
+          },
+        ].filter((b) => b.value > 0);
+      }
+      function renderPie(canvas, buckets) {
+        if (!canvas) return;
+        if (!buckets.length) {
+          const p = document.createElement("div");
+          p.className = "muted";
+          p.textContent = "No data";
+          canvas.parentElement.replaceWith(p); // replace the whole box
+          return;
+        }
+        new Chart(canvas.getContext("2d"), {
+          type: "pie",
+          data: {
+            labels: buckets.map((b) => b.label),
+            datasets: [{ data: buckets.map((b) => b.value) }],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false, // the .chart-box drives the aspect ratio
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                displayColors: false,
+                callbacks: {
+                  label: (ctx) => `$${ctx.parsed.toLocaleString()}`,
+                },
+              },
+            },
           },
         });
-        map.addControl(new clearControl());
-        function showToast(message) {
-          var toast = document.getElementById("toast");
-          toast.innerHTML = message;
-          toast.className = "toast show";
-          setTimeout(function () {
-            toast.className = toast.className.replace("show", "");
-          }, 3000);
+      }
+
+      // ---------------- Panel ----------------
+      const panel = {
+        el: $("charity-panel"),
+        content: $("panel-content"),
+        open(html) {
+          this.content.innerHTML = html;
+          this.el.classList.add("open");
+          document.body.classList.add("panel-open"); // lock page scroll
+        },
+        close() {
+          this.el.classList.remove("open");
+          this.content.innerHTML = "";
+          document.body.classList.remove("panel-open"); // unlock page scroll
+        },
+      };
+      $("panel-close").addEventListener("click", () => panel.close());
+
+      function headerBlock(rawHtml) {
+        return rawHtml;
+      }
+      function infoSection(title, value) {
+        if (!value) return "";
+        return `<div class="panel-section-title">${esc(
+          title
+        )}</div><div class="muted">${esc(value)}</div>`;
+      }
+
+      async function openPanelFor(cc, headerHtml) {
+        const [org, ret] = await Promise.all([
+          API.org(cc),
+          API.latestReturn(cc),
+        ]);
+        const safe = cc.replace(/[^A-Za-z0-9_-]/g, "");
+        const incId = `inc-${safe}`,
+          expId = `exp-${safe}`;
+
+        // Use ONLY GrpOrgLatestReturns for these labels
+        const purpose = (
+          ret?.CharitablePurpose ||
+          org?.CharitablePurpose ||
+          ""
+        ).trim();
+        const activities = (ret?.MainActivityName || "").trim();
+        const sectors = (ret?.MainSectorName || "").trim();
+        const beneficiaries = (ret?.MainBeneficiaryName || "").trim();
+        const tierText = ret?.ReportingTier
+          ? ret.ReportingTier.replace(/(\D)(\d)/, "$1 $2") // insert space before number
+          : "Not available";
+
+        const html = `
+  ${headerHtml}
+  ${
+    purpose
+      ? `<div class="panel-section-title">Charitable Purpose</div><div class="muted">${esc(
+          purpose
+        )}</div>`
+      : ""
+  }
+  ${
+    activities
+      ? `<div class="panel-section-title">Activities</div><div class="muted">${esc(
+          activities
+        )}</div>`
+      : ""
+  }
+  ${
+    sectors
+      ? `<div class="panel-section-title">Sectors</div><div class="muted">${esc(
+          sectors
+        )}</div>`
+      : ""
+  }
+  ${
+    beneficiaries
+      ? `<div class="panel-section-title">Beneficiaries</div><div class="muted">${esc(
+          beneficiaries
+        )}</div>`
+      : ""
+  }
+  ${
+    tierText
+      ? `<div class="panel-section-title">Reporting Tier</div><div class="muted">${esc(
+          tierText
+        )}</div>`
+      : ""
+  }
+
+  <div class="panel-section-title">Operating Income</div>
+  <div class="muted" id="inc-total-${safe}"></div>
+  <div class="chart-box"><canvas id="${incId}"></canvas></div>
+
+  <div class="panel-section-title">Total Expenditure</div>
+  <div class="muted" id="exp-total-${safe}"></div>
+  <div class="chart-box"><canvas id="${expId}"></canvas></div>
+`;
+
+        panel.open(html);
+
+        if (!ret) return;
+
+        const incBuckets = pieBucketsForIncome(ret);
+        const expBuckets = pieBucketsForExpenditure(ret);
+        const incTotal =
+          n(ret.TotalGrossIncome) ||
+          incBuckets.reduce((s, b) => s + b.value, 0);
+        const expTotal =
+          n(ret.TotalExpenditure) ||
+          expBuckets.reduce((s, b) => s + b.value, 0);
+
+        $(
+          `inc-total-${safe}`
+        ).textContent = `Total receipts: $${incTotal.toLocaleString()}`;
+        $(
+          `exp-total-${safe}`
+        ).textContent = `Total operating payments: $${expTotal.toLocaleString()}`;
+
+        renderPie($(incId), incBuckets);
+        renderPie($(expId), expBuckets);
+      }
+
+      // ---------------- Map + markers ----------------
+      let charityData = [],
+        groupData = [];
+      const map = L.map("map", {
+        attributionControl: true,
+        worldCopyJump: true,
+        minZoom: 4,
+        zoomControl: false,
+      }).setView([-40.9006, 174.886], 6);
+      L.tileLayer(
+        "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+        {
+          attribution:
+            'Registered Charities in New Zealand | © <a href="https://carto.com/">Carto</a> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         }
+      ).addTo(map);
+      map.attributionControl.setPrefix("");
+
+      const charityCluster = L.markerClusterGroup({
+        animateAddingMarkers: true,
+        showCoverageOnHover: false,
+        spiderfyOnMaxZoom: true,
+      });
+      const groupCluster = L.markerClusterGroup({
+        animateAddingMarkers: true,
+        showCoverageOnHover: false,
+        spiderfyOnMaxZoom: true,
+      });
+      const combinedCluster = L.markerClusterGroup({
+        animateAddingMarkers: true,
+        showCoverageOnHover: false,
+        spiderfyOnMaxZoom: true,
+      });
+
+      function attachMarkerBehaviour(marker, cc, headerHtml, lat, lon) {
+        marker.on("click", async () => {
+          try {
+            if (lat != null && lon != null) {
+              map.flyTo([lat, lon], Math.max(map.getZoom(), 14), {
+                duration: 0.4,
+              });
+            }
+            await openPanelFor(cc, headerHtml);
+          } catch (e) {
+            console.warn("Panel data fetch failed:", e);
+            panel.open(
+              `${headerHtml}<p style="color:#c00;">Couldn’t load data.</p>`
+            );
+          }
+        });
+      }
+
+      const spinner = $("loading-spinner");
+      let workersDone = 0;
+      function workerDone() {
+        if (++workersDone === 2 && spinner) spinner.style.display = "none";
+      }
+      if (spinner) spinner.style.display = "block";
+
+      if (window.Worker) {
+        // Charities
+        const charityWorker = new Worker("csv-worker.js");
+        charityWorker.postMessage({
+          csvFile: "combined_charities_data.csv",
+          markerType: "charity",
+        });
+        charityWorker.onmessage = (e) => {
+          charityData = e.data;
+          const markers = [];
+          charityData.forEach((m) => {
+            const marker = L.marker([m.lat, m.lon]);
+            marker.bindPopup(
+              `<div class="addr-pop"><strong>${esc(m.charityName)}</strong>${
+                m.streetAddress
+              }</div>`,
+              { autoPan: false }
+            );
+            attachMarkerBehaviour(
+              marker,
+              m.charityRegNumber,
+              m.popupContent,
+              m.lat,
+              m.lon
+            );
+            markers.push(marker);
+            combinedCluster.addLayer(marker);
+          });
+          charityCluster.addLayers(markers);
+          map.addLayer(charityCluster);
+          workerDone();
+        };
+
+        // Groups
+        const groupWorker = new Worker("csv-worker.js");
+        groupWorker.postMessage({
+          csvFile: "combined_groups_data.csv",
+          markerType: "group",
+        });
+        groupWorker.onmessage = (e) => {
+          groupData = e.data;
+          const markers = [];
+          const greenIcon = new L.Icon({
+            iconUrl: "marker-icon-2x-green.png",
+            shadowUrl: "marker-shadow.png",
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41],
+          });
+          groupData.forEach((m) => {
+            const marker = L.marker([m.lat, m.lon], { icon: greenIcon });
+            marker.bindPopup(
+              `<div class="addr-pop"><strong>${esc(m.charityName)}</strong>${
+                m.streetAddress
+              }</div>`,
+              { autoPan: false }
+            );
+            attachMarkerBehaviour(
+              marker,
+              m.charityRegNumber,
+              m.popupContent,
+              m.lat,
+              m.lon
+            );
+            markers.push(marker);
+            combinedCluster.addLayer(marker);
+          });
+          groupCluster.addLayers(markers);
+          workerDone();
+        };
+      }
+
+      L.control
+        .layers(
+          {
+            Charities: charityCluster,
+            Groups: groupCluster,
+            "Charities and Groups": combinedCluster,
+          },
+          {},
+          { position: "topright" }
+        )
+        .addTo(map);
+      L.control.zoom({ position: "topright" }).addTo(map);
+
+      const HeartSearchControl = L.Control.extend({
+        options: { position: "topright" },
+        onAdd: () => {
+          const el = $("charity-search-container");
+          L.DomEvent.disableClickPropagation(el);
+          L.DomEvent.disableScrollPropagation(el);
+          return el;
+        },
+      });
+      map.addControl(new HeartSearchControl());
+
+      L.Control.geocoder({
+        defaultMarkGeocode: false,
+        geocoder: L.Control.Geocoder.nominatim(),
+        position: "topright",
+      })
+        .on("markgeocode", (e) => {
+          const b = e.geocode.bbox;
+          const poly = L.polygon([
+            [b.getSouthEast().lat, b.getSouthEast().lng],
+            [b.getNorthEast().lat, b.getNorthEast().lng],
+            [b.getNorthWest().lat, b.getNorthWest().lng],
+            [b.getSouthWest().lat, b.getSouthWest().lng],
+          ]).addTo(map);
+          map.fitBounds(poly.getBounds());
+          showToast("Search moved to: " + e.geocode.name);
+        })
+        .addTo(map);
+
+      let polygons = [];
+      const ClearControl = L.Control.extend({
+        options: { position: "topright" },
+        onAdd: function () {
+          const container = L.DomUtil.create(
+            "div",
+            "leaflet-bar custom-clear-control"
+          );
+          const button = L.DomUtil.create("a", "", container);
+          button.innerHTML = "Clear";
+          button.href = "#";
+          button.title = "Clear Search Areas";
+          L.DomEvent.on(button, "click", (ev) => {
+            L.DomEvent.preventDefault(ev);
+            polygons.forEach((p) => map.removeLayer(p));
+            polygons = [];
+          });
+          return container;
+        },
+      });
+      map.addControl(new ClearControl());
+
+      const searchBtn = $("charity-search-btn");
+      const searchInput = $("charity-search-input");
+      const searchBox = $("charity-search-container");
+      searchBtn.addEventListener("click", () => {
+        searchBox.classList.toggle("leaflet-control-geocoder-expanded");
+        searchInput.focus();
+      });
+      searchInput.addEventListener("focusout", () => {
+        searchBox.classList.remove("leaflet-control-geocoder-expanded");
+      });
+      searchInput.addEventListener("keydown", (e) => {
+        if (e.key !== "Enter") return;
+        const q = searchInput.value.trim();
+        if (!q) return;
+        const found =
+          charityData.find(
+            (c) => c.charityRegNumber.toLowerCase() === q.toLowerCase()
+          ) ||
+          groupData.find(
+            (g) => g.charityRegNumber.toLowerCase() === q.toLowerCase()
+          );
+        if (!found) return showToast("Charity or Group not found.");
+        map.setView([found.lat, found.lon], 16);
+        const marker = L.marker([found.lat, found.lon]);
+        marker.bindPopup(
+          `<div class="addr-pop"><strong>${esc(found.charityName)}</strong>${
+            found.streetAddress
+          }</div>`,
+          { autoPan: false }
+        );
+        attachMarkerBehaviour(
+          marker,
+          found.charityRegNumber,
+          found.popupContent,
+          found.lat,
+          found.lon
+        );
+        marker.addTo(map).fire("click");
+        searchInput.value = "";
       });
     </script>
-    <div id="toast" class="toast">Search moved to:</div>
   </body>
 </html>
