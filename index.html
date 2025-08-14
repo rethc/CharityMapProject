@@ -141,7 +141,7 @@
       const API = {
         async org(cc) {
           const r = await fetch(
-            `http://www.charities.co.nz/api/Organisations?cc=${encodeURIComponent(
+            `http://charities.co.nz/api/Organisations?cc=${encodeURIComponent(
               cc
             )}`
           );
@@ -158,7 +158,7 @@
         },
         async latestReturn(cc) {
           const r = await fetch(
-            `http://www.charities.co.nz/api/GrpOrgLatestReturns?cc=${encodeURIComponent(
+            `http://charities.co.nz/api/GrpOrgLatestReturns?cc=${encodeURIComponent(
               cc
             )}`
           );
