@@ -178,7 +178,6 @@
       };
 
       // ---------------- Charts ----------------
-      // Default (non-V3 Tier4) buckets
       function pieBucketsForIncome(row) {
         return [
           {
@@ -225,71 +224,6 @@
           },
         ].filter((b) => b.value > 0);
       }
-
-      // V3 + Tier4 detection and buckets
-      function isV3Tier4(row) {
-        const ver = String(
-          row?.ReportingVersion || row?.ReportingVersionType || ""
-        ).toUpperCase();
-        const tier = String(row?.ReportingTier || "").toUpperCase();
-        return ver.includes("V3") && tier === "TIER4";
-      }
-      function pieBucketsForIncomeV3Tier4(row) {
-        return [
-          {
-            label: "Donations, koha, bequests, and other fundraising",
-            value: n(row.DonationsKoha),
-          },
-          {
-            label: "General grants received",
-            value: n(row.GeneralGrantsReceived),
-          },
-          {
-            label: "Service delivery grants/contracts",
-            value: n(row.ServiceDeliveryGrantsContracts),
-          },
-          {
-            label: "Membership fees and subscriptions",
-            value: n(row.MembershipFees),
-          },
-          {
-            label: "Sale of goods & services (commercial activities)",
-            value: n(row.ServiceTradingIncome),
-          },
-          {
-            label: "Interest or dividends received",
-            value: n(row.InterestOfDividendsReceived),
-          },
-          { label: "Other cash received", value: n(row.AllOtherIncome) },
-        ].filter((b) => b.value > 0);
-      }
-      function pieBucketsForExpenditureV3Tier4(row) {
-        return [
-          { label: "Fundraising costs", value: n(row.FundRaisingExpenses) },
-          {
-            label: "Employee remuneration and other employee related costs",
-            value: n(row.EmployeeRemunerationAndOtherRelatedExpenses),
-          },
-          {
-            label: "Volunteer related costs",
-            value: n(row.VolunteerRelatedExpenses),
-          },
-          {
-            label: "Costs related to delivery of entity objectives",
-            value: n(row.CostOfTradingOperations),
-          },
-          {
-            label: "Other costs related to delivery of entity objectives",
-            value: n(row.OtherRelatedToDeliveryOfEntityObjectives),
-          },
-          {
-            label: "Grants and donations paid",
-            value: n(row.GrantsorDonationsPaid),
-          },
-          { label: "Other cash paid", value: n(row.AllOtherExpenditure) },
-        ].filter((b) => b.value > 0);
-      }
-
       function renderPie(canvas, buckets) {
         if (!canvas) return;
         if (!buckets.length) {
@@ -307,7 +241,7 @@
           },
           options: {
             responsive: true,
-            maintainAspectRatio: false, // the .chart-box drives aspect
+            maintainAspectRatio: false, // the .chart-box drives the aspect ratio
             plugins: {
               legend: { display: false },
               tooltip: {
@@ -333,7 +267,7 @@
         close() {
           this.el.classList.remove("open");
           this.content.innerHTML = "";
-          document.body.classList.remove("panel-open"); // unlock
+          document.body.classList.remove("panel-open"); // unlock page scroll
         },
       };
       $("panel-close").addEventListener("click", () => panel.close());
@@ -357,7 +291,7 @@
         const incId = `inc-${safe}`,
           expId = `exp-${safe}`;
 
-        // Labels (from latest return, fallback to org for purpose text only)
+        // Use ONLY GrpOrgLatestReturns for these labels
         const purpose = (
           ret?.CharitablePurpose ||
           org?.CharitablePurpose ||
@@ -367,23 +301,8 @@
         const sectors = (ret?.MainSectorName || "").trim();
         const beneficiaries = (ret?.MainBeneficiaryName || "").trim();
         const tierText = ret?.ReportingTier
-          ? ret.ReportingTier.replace(/(\D)(\d)/, "$1 $2")
+          ? ret.ReportingTier.replace(/(\D)(\d)/, "$1 $2") // insert space before number
           : "Not available";
-        const versionText = (
-          ret?.ReportingVersion ||
-          ret?.ReportingVersionType ||
-          ""
-        )
-          .toString()
-          .trim();
-        const receivesDonations =
-          ret?.ReceiveDonations === true || ret?.ReceiveDonations === false
-            ? ret.ReceiveDonations
-              ? "Yes"
-              : "No"
-            : "Not stated";
-
-        const v3Tier4 = isV3Tier4(ret);
 
         const html = `
   ${headerHtml}
@@ -422,23 +341,6 @@
         )}</div>`
       : ""
   }
-  ${
-    versionText
-      ? `<div class="panel-section-title">Reporting Version</div><div class="muted">${esc(
-          versionText
-        )}</div>`
-      : ""
-  }
-  <div class="muted" style="margin:6px 0 10px;">
-    <span class="cc-pill" style="background:#fff3d9;border-color:#f0cc7a;color:#5b4406;">Receives donations: ${esc(
-      receivesDonations
-    )}</span>
-    ${
-      v3Tier4
-        ? `<span class="cc-pill" style="background:#eaf7ff;border-color:#bfe3fb;color:#0b4a6e;margin-left:6px;">V3 + Tier 4 view</span>`
-        : ""
-    }
-  </div>
 
   <div class="panel-section-title">Operating Income</div>
   <div class="muted" id="inc-total-${safe}"></div>
@@ -453,14 +355,8 @@
 
         if (!ret) return;
 
-        // Choose buckets by version/tier
-        const incBuckets = v3Tier4
-          ? pieBucketsForIncomeV3Tier4(ret)
-          : pieBucketsForIncome(ret);
-        const expBuckets = v3Tier4
-          ? pieBucketsForExpenditureV3Tier4(ret)
-          : pieBucketsForExpenditure(ret);
-
+        const incBuckets = pieBucketsForIncome(ret);
+        const expBuckets = pieBucketsForExpenditure(ret);
         const incTotal =
           n(ret.TotalGrossIncome) ||
           incBuckets.reduce((s, b) => s + b.value, 0);
@@ -468,16 +364,12 @@
           n(ret.TotalExpenditure) ||
           expBuckets.reduce((s, b) => s + b.value, 0);
 
-        // Totals labels reflect V3 wording
-        $(`inc-total-${safe}`).textContent =
-          (v3Tier4
-            ? "Total cash received from operating activities: "
-            : "Total receipts: ") + `$${incTotal.toLocaleString()}`;
-
-        $(`exp-total-${safe}`).textContent =
-          (v3Tier4
-            ? "Total cash paid for operating activities: "
-            : "Total operating payments: ") + `$${expTotal.toLocaleString()}`;
+        $(
+          `inc-total-${safe}`
+        ).textContent = `Total receipts: $${incTotal.toLocaleString()}`;
+        $(
+          `exp-total-${safe}`
+        ).textContent = `Total operating payments: $${expTotal.toLocaleString()}`;
 
         renderPie($(incId), incBuckets);
         renderPie($(expId), expBuckets);
